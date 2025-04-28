@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/members.json",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "[\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Tanmayie Patil\",\r\n    \"position\": \"President\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/dila94wql7ah3ktehmm8\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"https://tanmayiepatil.netlify.app\",\r\n        \"websiteicon\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/tanmayie-patil-6543a7258/\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://x.com/tanmayie87?t=qKgB1-mmdO93gHROWiYSTw&s=09\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/descry_art_\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Aryan Bramhane\",\r\n    \"position\": \"Techincal Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pegbdwn5i7kuhmrdssvc\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/aryan-bramhane-9b93031b3/\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://twitter.com/neutr0n420\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/aryanbramhane_/\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"Ganesh Kharde\",\r\n    \"position\": \"Event Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wyqdxusm6gdqa0zpzscj\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://linkedin.com/in/ganesh-kharde\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://twitter.com/ganeshkharde80\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/ganesh_kharde_official/\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"Abhishek Paralikar\",\r\n    \"position\": \"Gaming Lead\",\r\n    \"image\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/tfilfko4dqnbeieikxba\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/abhishek-paralikar-212320229/\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://x.com/AbhishekPa5231?t=lvgQ98bS5V_iZLH3h1SUqw&s=09\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/its_abhiii_20_?igsh=MXM4eHd0cmw2OGlwOQ%3D%3D\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"Anjali Kulkarni\",\r\n    \"position\": \"Operation Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728974260/anjali_newwebsitecompress_nfefc8.png\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/anjali-kulkarni-a58a20230\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://x.com/Anjalik_11?t=wXa0ZrfcTLybstEI3gjFxA&s=09\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 5,\r\n    \"name\": \"Abhay Nandnaware\",\r\n    \"position\": \"Finance Head\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wj1xl98tkeqlpuelg0mm\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/abhay-nandnaware-bb5715266\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://x.com/AbhayNandn11050?t=rCRLxFy_s2IECJ2LcW5q1A&s=09\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/im_abhay_31?igsh=MzNlNGNkZWQ4Mg==\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 6,\r\n    \"name\": \"Swati Pandey\",\r\n    \"position\": \"Content Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/rxbutrg1xxewrvadg9bo\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/aint_swati?igsh=aWE3aWhzdzJ0eHow\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 7,\r\n    \"name\": \"Yashwant Bhosale\",\r\n    \"position\": \"Media Lead\",\r\n    \"image\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pimo0uszw3lcibxgtcp6\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"https://www.youtube.com/@yashwant_373\",\r\n        \"websiteicon\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"LinkedIn - https://www.linkedin.com/in/yashwant373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/yashwant_373\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 8,\r\n    \"name\": \"Harshwardan Khanse\",\r\n    \"position\": \"Graphic-Design Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/mmyciv5ifoiawvjtju4f\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/harshwardhan-khanse-2530b1225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \" https://www.instagram.com/harshk.x?igsh=NTRxeHo4YWZ1dnZt\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 9,\r\n    \"name\": \"Sahil Gange\",\r\n    \"position\": \"Support Lead\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/zackq3mit1jhhvo6losw\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"\"\r\n      },\r\n      {\r\n        \"twitter\": \"https://twitter.com/the_sahilgange\",\r\n        \"twittericon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/invites/contact/?i=2ivu7kfhhrhe&utm_content=4rz5hwp\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 10,\r\n    \"name\": \"Siddhi Sethi\",\r\n    \"position\": \"Marketing Team\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsntvzjo5cpv3r3mfmwx.png\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"Linkedin:https://www.linkedin.com/in/siddhi-sethi-a6a0aa23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 11,\r\n    \"name\": \"Ajinkya Takalkar\",\r\n    \"position\": \"Photography Team\",\r\n    \"image\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/nunrbao9mrrsrqj64smc\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx\",\r\n        \"websiteicon\": \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 12,\r\n    \"name\": \"Kartik Hajbe\",\r\n    \"position\": \"Media Team\",\r\n    \"image\": \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708691853/DSC_0300_2_l6t4xk.png\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://in.linkedin.com/in/kartik-hajbe-538a99244\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/kartikhajbe\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 13,\r\n    \"name\": \"Sachi Ernale\",\r\n    \"position\": \"Finance Team\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/st3fhpxjaybneh3xm46k\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/sachi-ernale-2a0b32229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/sachi.ernale?igsh=Z2E4MmVnN2I3cjhq\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 14,\r\n    \"name\": \"Aniket Andhale\",\r\n    \"position\": \"Support Team\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/ayrux5e3fki1t6epipcv\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/aniketandhale08\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/andy_08_01?igsh=MThmZDVqcDVibG81NA==\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  },\r\n  {\r\n    \"id\": 15,\r\n    \"name\": \"Hemant Saundalkar\",\r\n    \"position\": \"Photography Team\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/achfeqwwkayb2wxxqjgt\",\r\n    \"socialMedia\": [\r\n      {\r\n        \"website\": \"\"\r\n      },\r\n      {\r\n        \"linkedIn\": \"https://www.linkedin.com/in/hemant-saundalkar-31526a245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\r\n        \"linkedInicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\r\n      },\r\n      {\r\n        \"twitter\": \"\"\r\n      },\r\n      {\r\n        \"instagram\": \"https://www.instagram.com/hemant_0308?igsh=bTBhZndlYWk0NDM4\",\r\n        \"instagramicon\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\r\n      }\r\n    ]\r\n  }\r\n]\r\n",
+      "start": 1745870470864,
+      "end": 1745870471296,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870471298,
+      "end": 1745870471298,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "result": "export default [\n\t{\n\t\tid: 1,\n\t\tname: \"Tanmayie Patil\",\n\t\tposition: \"President\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/dila94wql7ah3ktehmm8\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"https://tanmayiepatil.netlify.app\",\n\t\t\t\twebsiteicon: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/tanmayie-patil-6543a7258/\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://x.com/tanmayie87?t=qKgB1-mmdO93gHROWiYSTw&s=09\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/descry_art_\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 2,\n\t\tname: \"Aryan Bramhane\",\n\t\tposition: \"Techincal Lead\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pegbdwn5i7kuhmrdssvc\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/aryan-bramhane-9b93031b3/\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://twitter.com/neutr0n420\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/aryanbramhane_/\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 3,\n\t\tname: \"Ganesh Kharde\",\n\t\tposition: \"Event Lead\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wyqdxusm6gdqa0zpzscj\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://linkedin.com/in/ganesh-kharde\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://twitter.com/ganeshkharde80\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/ganesh_kharde_official/\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 4,\n\t\tname: \"Abhishek Paralikar\",\n\t\tposition: \"Gaming Lead\",\n\t\timage: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/tfilfko4dqnbeieikxba\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/abhishek-paralikar-212320229/\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://x.com/AbhishekPa5231?t=lvgQ98bS5V_iZLH3h1SUqw&s=09\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/its_abhiii_20_?igsh=MXM4eHd0cmw2OGlwOQ%3D%3D\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 5,\n\t\tname: \"Anjali Kulkarni\",\n\t\tposition: \"Operation Lead\",\n\t\timage: \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728974260/anjali_newwebsitecompress_nfefc8.png\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/anjali-kulkarni-a58a20230\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://x.com/Anjalik_11?t=wXa0ZrfcTLybstEI3gjFxA&s=09\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 5,\n\t\tname: \"Abhay Nandnaware\",\n\t\tposition: \"Finance Head\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wj1xl98tkeqlpuelg0mm\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/abhay-nandnaware-bb5715266\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://x.com/AbhayNandn11050?t=rCRLxFy_s2IECJ2LcW5q1A&s=09\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/im_abhay_31?igsh=MzNlNGNkZWQ4Mg==\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 6,\n\t\tname: \"Swati Pandey\",\n\t\tposition: \"Content Lead\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/rxbutrg1xxewrvadg9bo\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/aint_swati?igsh=aWE3aWhzdzJ0eHow\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 7,\n\t\tname: \"Yashwant Bhosale\",\n\t\tposition: \"Media Lead\",\n\t\timage: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pimo0uszw3lcibxgtcp6\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"https://www.youtube.com/@yashwant_373\",\n\t\t\t\twebsiteicon: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"LinkedIn - https://www.linkedin.com/in/yashwant373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/yashwant_373\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 8,\n\t\tname: \"Harshwardan Khanse\",\n\t\tposition: \"Graphic-Design Lead\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/mmyciv5ifoiawvjtju4f\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/harshwardhan-khanse-2530b1225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \" https://www.instagram.com/harshk.x?igsh=NTRxeHo4YWZ1dnZt\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 9,\n\t\tname: \"Sahil Gange\",\n\t\tposition: \"Support Lead\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/zackq3mit1jhhvo6losw\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"https://twitter.com/the_sahilgange\",\n\t\t\t\ttwittericon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/invites/contact/?i=2ivu7kfhhrhe&utm_content=4rz5hwp\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 10,\n\t\tname: \"Siddhi Sethi\",\n\t\tposition: \"Marketing Team\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsntvzjo5cpv3r3mfmwx.png\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"Linkedin:https://www.linkedin.com/in/siddhi-sethi-a6a0aa23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 11,\n\t\tname: \"Ajinkya Takalkar\",\n\t\tposition: \"Photography Team\",\n\t\timage: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/nunrbao9mrrsrqj64smc\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx\",\n\t\t\t\twebsiteicon: \" https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 12,\n\t\tname: \"Kartik Hajbe\",\n\t\tposition: \"Media Team\",\n\t\timage: \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708691853/DSC_0300_2_l6t4xk.png\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://in.linkedin.com/in/kartik-hajbe-538a99244\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/kartikhajbe\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 13,\n\t\tname: \"Sachi Ernale\",\n\t\tposition: \"Finance Team\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/st3fhpxjaybneh3xm46k\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/sachi-ernale-2a0b32229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/sachi.ernale?igsh=Z2E4MmVnN2I3cjhq\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 14,\n\t\tname: \"Aniket Andhale\",\n\t\tposition: \"Support Team\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/ayrux5e3fki1t6epipcv\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/aniketandhale08\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/andy_08_01?igsh=MThmZDVqcDVibG81NA==\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t},\n\t{\n\t\tid: 15,\n\t\tname: \"Hemant Saundalkar\",\n\t\tposition: \"Photography Team\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/achfeqwwkayb2wxxqjgt\",\n\t\tsocialMedia: [\n\t\t\t{\n\t\t\t\twebsite: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tlinkedIn: \"https://www.linkedin.com/in/hemant-saundalkar-31526a245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app\",\n\t\t\t\tlinkedInicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp\"\n\t\t\t},\n\t\t\t{\n\t\t\t\ttwitter: \"\"\n\t\t\t},\n\t\t\t{\n\t\t\t\tinstagram: \"https://www.instagram.com/hemant_0308?igsh=bTBhZndlYWk0NDM4\",\n\t\t\t\tinstagramicon: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq\"\n\t\t\t}\n\t\t]\n\t}\n];",
+      "start": 1745870471298,
+      "end": 1745870471300,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870471300,
+      "end": 1745870471300,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471300,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870471301,
+      "end": 1745870471301,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870471301,
+      "end": 1745870471302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870471302,
+      "end": 1745870471302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870471302,
+      "end": 1745870471302,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870471302,
+      "end": 1745870471302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870471303,
+      "end": 1745870471303,
+      "order": "normal"
+    }
+  ]
+}

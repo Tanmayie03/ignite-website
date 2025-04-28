@@ -1,0 +1,250 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/events.json",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "[\r\n  {\r\n    \"id\": 0,\r\n    \"name\": \"Zen2(Ongoing)\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf\",\r\n    \"text\": \"EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!\",\r\n    \"date\": \"10 May 2025 - 12 May 2025\",\r\n    \"page_id\": \"zen2\"\r\n  },\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"EventZen\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf\",\r\n    \"text\": \"EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!\",\r\n    \"date\": \"12 Jan 2023 - 15 Jan 2023\",\r\n    \"page_id\": \"zen\"\r\n  },\r\n  {\r\n    \"id\": 2,\r\n    \"name\": \"Aavhan\",\r\n    \"image\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/timhdiabumhtg9uudusb.png\",\r\n    \"text\": \"Aavhan, our triumphant second iteration at Ignite Student Association, showcased a spectrum of competitions, blending curricular and extra-curricular excellence. A glimpse into our vibrant celebration of talent and success!\",\r\n    \"date\": \"24 April 2023 - 26 April 2023\",\r\n    \"page_id\": \"aavhan\"\r\n  },\r\n  {\r\n    \"id\": 3,\r\n    \"name\": \"EventZen2.0\",\r\n    \"image\": \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706989587/eventzen2.0_d8qamz.png\",\r\n    \"text\": \"Level Up! Eventzen 2.0, our second iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!\",\r\n    \"date\": \"08 March 2024 - 11 March 2024\",\r\n    \"page_id\": \"eventzen2\"\r\n  },\r\n  {\r\n    \"id\": 4,\r\n    \"name\": \"EventZen 3.0\",\r\n    \"image\": \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1729439271/Group_3317_albdx9.png\",\r\n    \"text\": \"EventZen 3.0, our third iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!\",\r\n    \"date\": \"26 Oct 2024 - 27 Oct 2024\",\r\n    \"page_id\": \"eventzen3\"\r\n  }\r\n]\r\n",
+      "start": 1745870485481,
+      "end": 1745870485707,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "result": "export default [\n\t{\n\t\tid: 0,\n\t\tname: \"Zen2(Ongoing)\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf\",\n\t\ttext: \"EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!\",\n\t\tdate: \"10 May 2025 - 12 May 2025\",\n\t\tpage_id: \"zen2\"\n\t},\n\t{\n\t\tid: 1,\n\t\tname: \"EventZen\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf\",\n\t\ttext: \"EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!\",\n\t\tdate: \"12 Jan 2023 - 15 Jan 2023\",\n\t\tpage_id: \"zen\"\n\t},\n\t{\n\t\tid: 2,\n\t\tname: \"Aavhan\",\n\t\timage: \"https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/timhdiabumhtg9uudusb.png\",\n\t\ttext: \"Aavhan, our triumphant second iteration at Ignite Student Association, showcased a spectrum of competitions, blending curricular and extra-curricular excellence. A glimpse into our vibrant celebration of talent and success!\",\n\t\tdate: \"24 April 2023 - 26 April 2023\",\n\t\tpage_id: \"aavhan\"\n\t},\n\t{\n\t\tid: 3,\n\t\tname: \"EventZen2.0\",\n\t\timage: \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706989587/eventzen2.0_d8qamz.png\",\n\t\ttext: \"Level Up! Eventzen 2.0, our second iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!\",\n\t\tdate: \"08 March 2024 - 11 March 2024\",\n\t\tpage_id: \"eventzen2\"\n\t},\n\t{\n\t\tid: 4,\n\t\tname: \"EventZen 3.0\",\n\t\timage: \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1729439271/Group_3317_albdx9.png\",\n\t\ttext: \"EventZen 3.0, our third iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!\",\n\t\tdate: \"26 Oct 2024 - 27 Oct 2024\",\n\t\tpage_id: \"eventzen3\"\n\t}\n];",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485707,
+      "end": 1745870485707,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870485708,
+      "end": 1745870485708,
+      "order": "normal"
+    }
+  ]
+}

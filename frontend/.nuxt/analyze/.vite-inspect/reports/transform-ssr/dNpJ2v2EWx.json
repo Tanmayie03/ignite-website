@@ -1,0 +1,266 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/plugins/aos.js",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import AOS from 'aos';\r\nimport 'aos/dist/aos.css';\r\n\r\nexport default defineNuxtPlugin((nuxtApp) => {\r\n  // Check if window object exists to prevent errors on SSR\r\n  if (typeof window !== 'undefined') {\r\n    // Initialize AOS only in client-side code (avoid SSR errors)\r\n    nuxtApp.provide('aos', new AOS.init({\r\n      disable: window.innerWidth < 640,\r\n      // offset: 200,\r\n      duration: 600,\r\n      easing: 'ease', // default easing for AOS animations\r\n      once: false, // whether animation should happen only once - while scrolling down\r\n      anchorPlacement: 'top-bottom',\r\n    })); // or any other options you need\r\n  }\r\n});\r\n",
+      "start": 1745870480420,
+      "end": 1745870482087,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870482087,
+      "end": 1745870482087,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870482087,
+      "end": 1745870482090,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870482087,
+      "end": 1745870482090,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870482090,
+      "end": 1745870482090,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870482090,
+      "end": 1745870482090,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870482090,
+      "end": 1745870482090,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import AOS from \"aos\";\nimport \"aos/dist/aos.css\";\nexport default defineNuxtPlugin((nuxtApp) => {\n  if (false) {\n    nuxtApp.provide(\"aos\", new AOS.init({\n      disable: (void 0).innerWidth < 640,\n      // offset: 200,\n      duration: 600,\n      easing: \"ease\",\n      // default easing for AOS animations\n      once: false,\n      // whether animation should happen only once - while scrolling down\n      anchorPlacement: \"top-bottom\"\n    }));\n  }\n});\n",
+      "start": 1745870482090,
+      "end": 1745870482915,
+      "order": "normal",
+      "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"D:/Ignite-self/frontend/plugins/aos.js\"],\n  \"sourcesContent\": [\"import AOS from 'aos';\\r\\nimport 'aos/dist/aos.css';\\r\\n\\r\\nexport default defineNuxtPlugin((nuxtApp) => {\\r\\n  // Check if window object exists to prevent errors on SSR\\r\\n  if (typeof window !== 'undefined') {\\r\\n    // Initialize AOS only in client-side code (avoid SSR errors)\\r\\n    nuxtApp.provide('aos', new AOS.init({\\r\\n      disable: window.innerWidth < 640,\\r\\n      // offset: 200,\\r\\n      duration: 600,\\r\\n      easing: 'ease', // default easing for AOS animations\\r\\n      once: false, // whether animation should happen only once - while scrolling down\\r\\n      anchorPlacement: 'top-bottom',\\r\\n    })); // or any other options you need\\r\\n  }\\r\\n});\\r\\n\"],\n  \"mappings\": \"AAAA,OAAO,SAAS;AAChB,OAAO;AAEP,eAAe,iBAAiB,CAAC,YAAY;AAE3C,MAAI,OAA+B;AAEjC,YAAQ,QAAQ,OAAO,IAAI,IAAI,KAAK;AAAA,MAClC,SAAS,SAAO,aAAa;AAAA;AAAA,MAE7B,UAAU;AAAA,MACV,QAAQ;AAAA;AAAA,MACR,MAAM;AAAA;AAAA,MACN,iBAAiB;AAAA,IACnB,CAAC,CAAC;AAAA,EACJ;AACF,CAAC;\",\n  \"names\": []\n}\n"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870482915,
+      "end": 1745870482915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870482915,
+      "end": 1745870482915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870482915,
+      "end": 1745870482915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870482915,
+      "end": 1745870482915,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870482917,
+      "end": 1745870482918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870482918,
+      "end": 1745870482918,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870482918,
+      "end": 1745870482918,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870482918,
+      "end": 1745870482918,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870482918,
+      "end": 1745870482918,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { defineNuxtPlugin } from '#app/nuxt';\nimport AOS from \"aos\";\nimport \"aos/dist/aos.css\";\nexport default defineNuxtPlugin((nuxtApp) => {\n  if (false) {\n    nuxtApp.provide(\"aos\", new AOS.init({\n      disable: (void 0).innerWidth < 640,\n      // offset: 200,\n      duration: 600,\n      easing: \"ease\",\n      // default easing for AOS animations\n      once: false,\n      // whether animation should happen only once - while scrolling down\n      anchorPlacement: \"top-bottom\"\n    }));\n  }\n});\n",
+      "start": 1745870482918,
+      "end": 1745870482938,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "result": "import { defineNuxtPlugin } from '#app/nuxt';\nimport AOS from \"aos\";\nimport \"aos/dist/aos.css\";\nexport default defineNuxtPlugin((nuxtApp) => {\n  if (false) {\n    nuxtApp.provide(\"aos\", new AOS.init({\n      disable: (void 0).innerWidth < 640,\n      // offset: 200,\n      duration: 600,\n      easing: \"ease\",\n      // default easing for AOS animations\n      once: false,\n      // whether animation should happen only once - while scrolling down\n      anchorPlacement: \"top-bottom\"\n    }));\n  }\n});\n",
+      "start": 1745870482918,
+      "end": 1745870482938,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": ";AAAA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC;AACH,CAAC,CAAC,CAAC;"
+      }
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870482938,
+      "end": 1745870482939,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870482938,
+      "end": 1745870482939,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870482940,
+      "end": 1745870482940,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870482940,
+      "end": 1745870482940,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870482940,
+      "end": 1745870482940,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870482940,
+      "end": 1745870482940,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870482941,
+      "end": 1745870482941,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870482941,
+      "end": 1745870482941,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870482954,
+      "end": 1745870482954,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "resolvedId": "virtual:nuxt:D:/Ignite-self/frontend/.nuxt/nuxt.config.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "export const appHead = {\"meta\":[{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},{\"charset\":\"utf-8\"},{\"name\":\"description\",\"content\":\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\"},{\"property\":\"theme-color\",\"content\":\"#FF6246\"},{\"property\":\"keywords\",\"content\":\"MIT Events, MIT Chh. Sambhajinagar Ignite Event, Ignite Event, Chh. Sambhajinagar College Events, MIT Chh. Sambhajinagar Student Association\"},{\"property\":\"og:title\",\"content\":\"Ignite Student Association - MIT Chh. Sambhajinagar\"},{\"property\":\"og:description\",\"content\":\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\"},{\"property\":\"og:image\",\"content\":\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\"},{\"property\":\"og:image:secure_url\",\"content\":\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\"},{\"property\":\"og:url\",\"content\":\"https://www.ignitestudentassociation.com/\"},{\"property\":\"og:site_name\",\"content\":\"Ignite Student Association - MIT Chh. Sambhajinagar\"},{\"property\":\"og:type\",\"content\":\"website\"},{\"property\":\"og:locale\",\"content\":\"en_US\"},{\"property\":\"og:copyright\",\"content\":\"© https://www.ignitestudentassociation.com/, 2024. All rights reserved\"},{\"property\":\"twitter:title\",\"content\":\"Ignite Student Association - MIT Chh. Sambhajinagar\"},{\"property\":\"twitter:description\",\"content\":\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\"},{\"property\":\"twitter:image\",\"content\":\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\"},{\"property\":\"twitter:site\",\"content\":\"https://www.ignitestudentassociation.com/\"},{\"property\":\"msapplication-TileColor\",\"content\":\"#FF6246\"},{\"property\":\"msapplication-TileImage\",\"content\":\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\"}],\"link\":[{\"rel\":\"icon\",\"type\":\"image/x-icon\",\"href\":\"/favicon.ico\"}],\"style\":[],\"script\":[{\"children\":\"(function(c,l,a,r,i,t,y){\\n          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\\n          t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i;\\n          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\\n          })(window, document, \\\"clarity\\\", \\\"script\\\", \\\"l4q4hwsohu\\\");\"}],\"noscript\":[],\"charset\":\"utf-8\",\"title\":\"Ignite Student Association - MIT Chh. Sambhajinagar\",\"titleTemplate\":\"%s - Ignite Student Association - MIT Chh. Sambhajinagar\"}\n\nexport const appBaseURL = \"/\"\n\nexport const appBuildAssetsDir = \"/_nuxt/\"\n\nexport const appCdnURL = \"\"\n\nexport const appLayoutTransition = false\n\nexport const appPageTransition = false\n\nexport const appKeepalive = false\n\nexport const appRootId = \"__nuxt\"\n\nexport const appRootTag = \"div\"\n\nexport const renderJsonPayloads = true\n\nexport const componentIslands = false\n\nexport const payloadExtraction = true\n\nexport const appManifest = true\n\nexport const remoteComponentIslands = false\n\nexport const selectiveClient = false\n\nexport const devPagesDir = null\n\nexport const devRootDir = null\n\nexport const nuxtLinkDefaults = {\"componentName\":\"NuxtLink\"}\n\nexport const asyncDataDefaults = {\"deep\":true}\n\nexport const fetchDefaults = {}\n\nexport const vueAppRootContainer = '#__nuxt'",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870480390,
+      "end": 1745870480390,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870480391,
+      "end": 1745870480391,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870480392,
+      "end": 1745870480392,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870480392,
+      "end": 1745870480392,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "export const appHead = { \"meta\": [{ \"name\": \"viewport\", \"content\": \"width=device-width, initial-scale=1\" }, { \"charset\": \"utf-8\" }, { \"name\": \"description\", \"content\": \"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\" }, { \"property\": \"theme-color\", \"content\": \"#FF6246\" }, { \"property\": \"keywords\", \"content\": \"MIT Events, MIT Chh. Sambhajinagar Ignite Event, Ignite Event, Chh. Sambhajinagar College Events, MIT Chh. Sambhajinagar Student Association\" }, { \"property\": \"og:title\", \"content\": \"Ignite Student Association - MIT Chh. Sambhajinagar\" }, { \"property\": \"og:description\", \"content\": \"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\" }, { \"property\": \"og:image\", \"content\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\" }, { \"property\": \"og:image:secure_url\", \"content\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\" }, { \"property\": \"og:url\", \"content\": \"https://www.ignitestudentassociation.com/\" }, { \"property\": \"og:site_name\", \"content\": \"Ignite Student Association - MIT Chh. Sambhajinagar\" }, { \"property\": \"og:type\", \"content\": \"website\" }, { \"property\": \"og:locale\", \"content\": \"en_US\" }, { \"property\": \"og:copyright\", \"content\": \"© https://www.ignitestudentassociation.com/, 2024. All rights reserved\" }, { \"property\": \"twitter:title\", \"content\": \"Ignite Student Association - MIT Chh. Sambhajinagar\" }, { \"property\": \"twitter:description\", \"content\": \"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\" }, { \"property\": \"twitter:image\", \"content\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\" }, { \"property\": \"twitter:site\", \"content\": \"https://www.ignitestudentassociation.com/\" }, { \"property\": \"msapplication-TileColor\", \"content\": \"#FF6246\" }, { \"property\": \"msapplication-TileImage\", \"content\": \"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\" }], \"link\": [{ \"rel\": \"icon\", \"type\": \"image/x-icon\", \"href\": \"/favicon.ico\" }], \"style\": [], \"script\": [{ \"children\": '(function(c,l,a,r,i,t,y){\\n          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\\n          t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\\n          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\\n          })(window, document, \"clarity\", \"script\", \"l4q4hwsohu\");' }], \"noscript\": [], \"charset\": \"utf-8\", \"title\": \"Ignite Student Association - MIT Chh. Sambhajinagar\", \"titleTemplate\": \"%s - Ignite Student Association - MIT Chh. Sambhajinagar\" };\nexport const appBaseURL = \"/\";\nexport const appBuildAssetsDir = \"/_nuxt/\";\nexport const appCdnURL = \"\";\nexport const appLayoutTransition = false;\nexport const appPageTransition = false;\nexport const appKeepalive = false;\nexport const appRootId = \"__nuxt\";\nexport const appRootTag = \"div\";\nexport const renderJsonPayloads = true;\nexport const componentIslands = false;\nexport const payloadExtraction = true;\nexport const appManifest = true;\nexport const remoteComponentIslands = false;\nexport const selectiveClient = false;\nexport const devPagesDir = null;\nexport const devRootDir = null;\nexport const nuxtLinkDefaults = { \"componentName\": \"NuxtLink\" };\nexport const asyncDataDefaults = { \"deep\": true };\nexport const fetchDefaults = {};\nexport const vueAppRootContainer = \"#__nuxt\";\n",
+      "start": 1745870480392,
+      "end": 1745870482051,
+      "order": "normal",
+      "sourcemaps": "{\n  \"version\": 3,\n  \"sources\": [\"virtual:nuxt:D:/Ignite-self/frontend/.nuxt/nuxt.config.mjs\"],\n  \"sourcesContent\": [\"export const appHead = {\\\"meta\\\":[{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"},{\\\"charset\\\":\\\"utf-8\\\"},{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\\\"},{\\\"property\\\":\\\"theme-color\\\",\\\"content\\\":\\\"#FF6246\\\"},{\\\"property\\\":\\\"keywords\\\",\\\"content\\\":\\\"MIT Events, MIT Chh. Sambhajinagar Ignite Event, Ignite Event, Chh. Sambhajinagar College Events, MIT Chh. Sambhajinagar Student Association\\\"},{\\\"property\\\":\\\"og:title\\\",\\\"content\\\":\\\"Ignite Student Association - MIT Chh. Sambhajinagar\\\"},{\\\"property\\\":\\\"og:description\\\",\\\"content\\\":\\\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\\\"},{\\\"property\\\":\\\"og:image\\\",\\\"content\\\":\\\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\\\"},{\\\"property\\\":\\\"og:image:secure_url\\\",\\\"content\\\":\\\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\\\"},{\\\"property\\\":\\\"og:url\\\",\\\"content\\\":\\\"https://www.ignitestudentassociation.com/\\\"},{\\\"property\\\":\\\"og:site_name\\\",\\\"content\\\":\\\"Ignite Student Association - MIT Chh. Sambhajinagar\\\"},{\\\"property\\\":\\\"og:type\\\",\\\"content\\\":\\\"website\\\"},{\\\"property\\\":\\\"og:locale\\\",\\\"content\\\":\\\"en_US\\\"},{\\\"property\\\":\\\"og:copyright\\\",\\\"content\\\":\\\"© https://www.ignitestudentassociation.com/, 2024. All rights reserved\\\"},{\\\"property\\\":\\\"twitter:title\\\",\\\"content\\\":\\\"Ignite Student Association - MIT Chh. Sambhajinagar\\\"},{\\\"property\\\":\\\"twitter:description\\\",\\\"content\\\":\\\"We are student-powered! Bridging the gap between books and careers, we ignite your future. Join our vibrant community for engaging events and workshops (online & offline) connecting academia to real-world industry insights. Get ready to explore your passions, network with experts, and launch your career journey!\\\"},{\\\"property\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\\\"},{\\\"property\\\":\\\"twitter:site\\\",\\\"content\\\":\\\"https://www.ignitestudentassociation.com/\\\"},{\\\"property\\\":\\\"msapplication-TileColor\\\",\\\"content\\\":\\\"#FF6246\\\"},{\\\"property\\\":\\\"msapplication-TileImage\\\",\\\"content\\\":\\\"https://res.cloudinary.com/dthrgos9e/image/upload/v1708432463/ignite-assets/events/zkk0hriqy2erukwbqsna.png\\\"}],\\\"link\\\":[{\\\"rel\\\":\\\"icon\\\",\\\"type\\\":\\\"image/x-icon\\\",\\\"href\\\":\\\"/favicon.ico\\\"}],\\\"style\\\":[],\\\"script\\\":[{\\\"children\\\":\\\"(function(c,l,a,r,i,t,y){\\\\n          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\\\\n          t=l.createElement(r);t.async=1;t.src=\\\\\\\"https://www.clarity.ms/tag/\\\\\\\"+i;\\\\n          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\\\\n          })(window, document, \\\\\\\"clarity\\\\\\\", \\\\\\\"script\\\\\\\", \\\\\\\"l4q4hwsohu\\\\\\\");\\\"}],\\\"noscript\\\":[],\\\"charset\\\":\\\"utf-8\\\",\\\"title\\\":\\\"Ignite Student Association - MIT Chh. Sambhajinagar\\\",\\\"titleTemplate\\\":\\\"%s - Ignite Student Association - MIT Chh. Sambhajinagar\\\"}\\n\\nexport const appBaseURL = \\\"/\\\"\\n\\nexport const appBuildAssetsDir = \\\"/_nuxt/\\\"\\n\\nexport const appCdnURL = \\\"\\\"\\n\\nexport const appLayoutTransition = false\\n\\nexport const appPageTransition = false\\n\\nexport const appKeepalive = false\\n\\nexport const appRootId = \\\"__nuxt\\\"\\n\\nexport const appRootTag = \\\"div\\\"\\n\\nexport const renderJsonPayloads = true\\n\\nexport const componentIslands = false\\n\\nexport const payloadExtraction = true\\n\\nexport const appManifest = true\\n\\nexport const remoteComponentIslands = false\\n\\nexport const selectiveClient = false\\n\\nexport const devPagesDir = null\\n\\nexport const devRootDir = null\\n\\nexport const nuxtLinkDefaults = {\\\"componentName\\\":\\\"NuxtLink\\\"}\\n\\nexport const asyncDataDefaults = {\\\"deep\\\":true}\\n\\nexport const fetchDefaults = {}\\n\\nexport const vueAppRootContainer = '#__nuxt'\"],\n  \"mappings\": \"AAAO,aAAM,UAAU,EAAC,QAAO,CAAC,EAAC,QAAO,YAAW,WAAU,sCAAqC,GAAE,EAAC,WAAU,QAAO,GAAE,EAAC,QAAO,eAAc,WAAU,4TAA2T,GAAE,EAAC,YAAW,eAAc,WAAU,UAAS,GAAE,EAAC,YAAW,YAAW,WAAU,+IAA8I,GAAE,EAAC,YAAW,YAAW,WAAU,sDAAqD,GAAE,EAAC,YAAW,kBAAiB,WAAU,4TAA2T,GAAE,EAAC,YAAW,YAAW,WAAU,8GAA6G,GAAE,EAAC,YAAW,uBAAsB,WAAU,8GAA6G,GAAE,EAAC,YAAW,UAAS,WAAU,4CAA2C,GAAE,EAAC,YAAW,gBAAe,WAAU,sDAAqD,GAAE,EAAC,YAAW,WAAU,WAAU,UAAS,GAAE,EAAC,YAAW,aAAY,WAAU,QAAO,GAAE,EAAC,YAAW,gBAAe,WAAU,yEAAwE,GAAE,EAAC,YAAW,iBAAgB,WAAU,sDAAqD,GAAE,EAAC,YAAW,uBAAsB,WAAU,4TAA2T,GAAE,EAAC,YAAW,iBAAgB,WAAU,8GAA6G,GAAE,EAAC,YAAW,gBAAe,WAAU,4CAA2C,GAAE,EAAC,YAAW,2BAA0B,WAAU,UAAS,GAAE,EAAC,YAAW,2BAA0B,WAAU,8GAA6G,CAAC,GAAE,QAAO,CAAC,EAAC,OAAM,QAAO,QAAO,gBAAe,QAAO,eAAc,CAAC,GAAE,SAAQ,CAAC,GAAE,UAAS,CAAC,EAAC,YAAW,kUAAyU,CAAC,GAAE,YAAW,CAAC,GAAE,WAAU,SAAQ,SAAQ,uDAAsD,iBAAgB,2DAA0D;AAEnuG,aAAM,aAAa;AAEnB,aAAM,oBAAoB;AAE1B,aAAM,YAAY;AAElB,aAAM,sBAAsB;AAE5B,aAAM,oBAAoB;AAE1B,aAAM,eAAe;AAErB,aAAM,YAAY;AAElB,aAAM,aAAa;AAEnB,aAAM,qBAAqB;AAE3B,aAAM,mBAAmB;AAEzB,aAAM,oBAAoB;AAE1B,aAAM,cAAc;AAEpB,aAAM,yBAAyB;AAE/B,aAAM,kBAAkB;AAExB,aAAM,cAAc;AAEpB,aAAM,aAAa;AAEnB,aAAM,mBAAmB,EAAC,iBAAgB,WAAU;AAEpD,aAAM,oBAAoB,EAAC,QAAO,KAAI;AAEtC,aAAM,gBAAgB,CAAC;AAEvB,aAAM,sBAAsB;\",\n  \"names\": []\n}\n"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870482051,
+      "end": 1745870482051,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870482051,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870482051,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870482053,
+      "end": 1745870482053,
+      "order": "normal"
+    }
+  ]
+}

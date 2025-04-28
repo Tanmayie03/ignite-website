@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/components/eventCard.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup>\r\ndefineProps({\r\n  event: Object,\r\n});\r\n</script>\r\n<template>\r\n  <div>\r\n    <div class=\"w-full rounded border-2 border-primary bg-[#ffefe4]\">\r\n      <div\r\n        class=\"flex flex-row items-center justify-start p-3 space-x-2 border-b border-primary\">\r\n        <div class=\"w-6 text-primary\">\r\n          <svg\r\n            xmlns=\"http://www.w3.org/2000/svg\"\r\n            fill=\"none\"\r\n            viewBox=\"0 0 24 24\"\r\n            strokeWidth=\"{1.5}\"\r\n            stroke=\"currentColor\"\r\n            className=\"w-6 h-6\">\r\n            <path\r\n              strokeLinecap=\"round\"\r\n              strokeLinejoin=\"round\"\r\n              d=\"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\" />\r\n          </svg>\r\n        </div>\r\n        <div>\r\n          {{ event.starts_from.slice(0, 10) }}\r\n        </div>\r\n      </div>\r\n      <img :src=\"event?.images[0]?.url\" alt=\"\" class=\"w-full\" />\r\n      <div\r\n        class=\"flex items-center justify-start p-3 space-x-2 border-t border-primary\">\r\n        <div class=\"w-6 text-primary\">\r\n          <svg\r\n            xmlns=\"http://www.w3.org/2000/svg\"\r\n            fill=\"none\"\r\n            viewBox=\"0 0 24 24\"\r\n            stroke-width=\"1.5\"\r\n            stroke=\"currentColor\"\r\n            class=\"w-6 h-6\">\r\n            <path\r\n              stroke-linecap=\"round\"\r\n              stroke-linejoin=\"round\"\r\n              d=\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\" />\r\n          </svg>\r\n        </div>\r\n        <div class=\"capitalize\">Online</div>\r\n      </div>\r\n      <div class=\"flex justify-between p-3 border-t border-primary\">\r\n        <div class=\"text-lg font-semibold capitalize sm:text-xl\">\r\n          {{ event.title }}\r\n        </div>\r\n        <div class=\"text-xl font-semibold\">₹{{ event.ticket_price }} /-</div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n",
+      "start": 1745870470831,
+      "end": 1745870471290,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870471290,
+      "end": 1745870471290,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"w-full rounded border-2 border-primary bg-[#ffefe4]\" }\nconst _hoisted_2 = { class: \"flex flex-row items-center justify-start p-3 space-x-2 border-b border-primary\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"w-6 text-primary\" }, [\n  /*#__PURE__*/_createElementVNode(\"svg\", {\n    xmlns: \"http://www.w3.org/2000/svg\",\n    fill: \"none\",\n    viewBox: \"0 0 24 24\",\n    strokeWidth: \"{1.5}\",\n    stroke: \"currentColor\",\n    className: \"w-6 h-6\"\n  }, [\n    /*#__PURE__*/_createElementVNode(\"path\", {\n      strokeLinecap: \"round\",\n      strokeLinejoin: \"round\",\n      d: \"M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5\"\n    })\n  ])\n], -1)\nconst _hoisted_4 = [\"src\"]\nconst _hoisted_5 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"flex items-center justify-start p-3 space-x-2 border-t border-primary\\\"><div class=\\\"w-6 text-primary\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"none\\\" viewBox=\\\"0 0 24 24\\\" stroke-width=\\\"1.5\\\" stroke=\\\"currentColor\\\" class=\\\"w-6 h-6\\\"><path stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" d=\\\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\\\"></path></svg></div><div class=\\\"capitalize\\\">Online</div></div>\", 1)\nconst _hoisted_6 = { class: \"flex justify-between p-3 border-t border-primary\" }\nconst _hoisted_7 = { class: \"text-lg font-semibold capitalize sm:text-xl\" }\nconst _hoisted_8 = { class: \"text-xl font-semibold\" }\n\n\nconst _sfc_main = {\n  __name: 'eventCard',\n  props: {\r\n  event: Object,\r\n},\n  setup(__props) {\n\r\n\r\n\nreturn (_ctx, _cache) => {\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"div\", _hoisted_2, [\n        _hoisted_3,\n        _createElementVNode(\"div\", null, _toDisplayString(__props.event.starts_from.slice(0, 10)), 1)\n      ]),\n      _createElementVNode(\"img\", {\n        src: __props.event?.images[0]?.url,\n        alt: \"\",\n        class: \"w-full\"\n      }, null, 8, _hoisted_4),\n      _hoisted_5,\n      _createElementVNode(\"div\", _hoisted_6, [\n        _createElementVNode(\"div\", _hoisted_7, _toDisplayString(__props.event.title), 1),\n        _createElementVNode(\"div\", _hoisted_8, \"₹\" + _toDisplayString(__props.event.ticket_price) + \" /-\", 1)\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1745870471290,
+      "end": 1745870471294,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870471294,
+      "end": 1745870471294,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870471294,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870471296,
+      "end": 1745870471296,
+      "order": "normal"
+    }
+  ]
+}

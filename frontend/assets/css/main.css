@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+@layer utilities{
+    .paused {
+        animation-play-state: paused;
+      }
+    @vartients responsive{
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    }
+ }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #CA8D66;
+    border-radius: 5px;
+}
+/* .swiper-button-prev{
+    color: #FF6246;
+} */
+.toast {
+    position: absolute;
+    right: 8px;
+    width: 250px;
+    height: 44px;
+    top: 0px;
+
+    bottom: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    animation: slideIn 2s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(50%);
+    }
+  }
+
+  /* .typeAnimate{
+    animation: typing 4s steps(40) infinite;
+    animation-delay: 0.5s;
+
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  } */
+
+  /* .{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+   */
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: -100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 70%;
+    }
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(200%);
+    }
+  }
+#aboutText {
+    animation-name: rotateAnimation;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    animation-direction: alternate;
+    animation-timeline: scroll(block nearest);
+  }
+  #square {
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+  
+    animation-name: rotateAnimation;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+    /* animation-direction: alternate; */
+    animation-timeline: scroll(block nearest);
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(200%);
+    }
+  }
+  

@@ -1,0 +1,212 @@
+{
+  "resolvedId": "virtual:nuxt:D:/Ignite-self/frontend/.nuxt/routes.mjs",
+  "transforms": [
+    {
+      "name": "virtual",
+      "result": "import { default as cancelPolicy9Iwqbl7lD5Meta } from \"D:/Ignite-self/frontend/pages/cancelPolicy.vue?macro=true\";\nimport { default as check_45paymentlt2qaElNoOMeta } from \"D:/Ignite-self/frontend/pages/check-payment.vue?macro=true\";\nimport { default as indexaocULAi0AwMeta } from \"D:/Ignite-self/frontend/pages/events/aavhan/index.vue?macro=true\";\nimport { default as indexVfN6tj6sYZMeta } from \"D:/Ignite-self/frontend/pages/events/eventzen2/index.vue?macro=true\";\nimport { default as indexD9Vb1fUqhYMeta } from \"D:/Ignite-self/frontend/pages/events/eventzen3/index.vue?macro=true\";\nimport { default as index4jXgmFwZpTMeta } from \"D:/Ignite-self/frontend/pages/events/index.vue?macro=true\";\nimport { default as indexJ7oKvSuJImMeta } from \"D:/Ignite-self/frontend/pages/events/zen/index.vue?macro=true\";\nimport { default as index85IECz0ASrMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/[id]/index.vue?macro=true\";\nimport { default as registerVL0LKfR7uyMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/[id]/register.vue?macro=true\";\nimport { default as indexqBoIOTo3QOMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/index.vue?macro=true\";\nimport { default as exploreVjyfTPA943Meta } from \"D:/Ignite-self/frontend/pages/explore.vue?macro=true\";\nimport { default as indexNxi8D1QctHMeta } from \"D:/Ignite-self/frontend/pages/index.vue?macro=true\";\nimport { default as privacyPolicyLjbiQ82CUiMeta } from \"D:/Ignite-self/frontend/pages/privacyPolicy.vue?macro=true\";\nimport { default as successBjqFyZnGVKMeta } from \"D:/Ignite-self/frontend/pages/success.vue?macro=true\";\nimport { default as termsL7y7cjim4NMeta } from \"D:/Ignite-self/frontend/pages/terms.vue?macro=true\";\nexport default [\n  {\n    name: cancelPolicy9Iwqbl7lD5Meta?.name ?? \"cancelPolicy\",\n    path: cancelPolicy9Iwqbl7lD5Meta?.path ?? \"/cancelPolicy\",\n    meta: cancelPolicy9Iwqbl7lD5Meta || {},\n    alias: cancelPolicy9Iwqbl7lD5Meta?.alias || [],\n    redirect: cancelPolicy9Iwqbl7lD5Meta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/cancelPolicy.vue\").then(m => m.default || m)\n  },\n  {\n    name: check_45paymentlt2qaElNoOMeta?.name ?? \"check-payment\",\n    path: check_45paymentlt2qaElNoOMeta?.path ?? \"/check-payment\",\n    meta: check_45paymentlt2qaElNoOMeta || {},\n    alias: check_45paymentlt2qaElNoOMeta?.alias || [],\n    redirect: check_45paymentlt2qaElNoOMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/check-payment.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexaocULAi0AwMeta?.name ?? \"events-aavhan\",\n    path: indexaocULAi0AwMeta?.path ?? \"/events/aavhan\",\n    meta: indexaocULAi0AwMeta || {},\n    alias: indexaocULAi0AwMeta?.alias || [],\n    redirect: indexaocULAi0AwMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/aavhan/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexVfN6tj6sYZMeta?.name ?? \"events-eventzen2\",\n    path: indexVfN6tj6sYZMeta?.path ?? \"/events/eventzen2\",\n    meta: indexVfN6tj6sYZMeta || {},\n    alias: indexVfN6tj6sYZMeta?.alias || [],\n    redirect: indexVfN6tj6sYZMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/eventzen2/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexD9Vb1fUqhYMeta?.name ?? \"events-eventzen3\",\n    path: indexD9Vb1fUqhYMeta?.path ?? \"/events/eventzen3\",\n    meta: indexD9Vb1fUqhYMeta || {},\n    alias: indexD9Vb1fUqhYMeta?.alias || [],\n    redirect: indexD9Vb1fUqhYMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/eventzen3/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: index4jXgmFwZpTMeta?.name ?? \"events\",\n    path: index4jXgmFwZpTMeta?.path ?? \"/events\",\n    meta: index4jXgmFwZpTMeta || {},\n    alias: index4jXgmFwZpTMeta?.alias || [],\n    redirect: index4jXgmFwZpTMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexJ7oKvSuJImMeta?.name ?? \"events-zen\",\n    path: indexJ7oKvSuJImMeta?.path ?? \"/events/zen\",\n    meta: indexJ7oKvSuJImMeta || {},\n    alias: indexJ7oKvSuJImMeta?.alias || [],\n    redirect: indexJ7oKvSuJImMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/zen/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: index85IECz0ASrMeta?.name ?? \"events-zen2-id\",\n    path: index85IECz0ASrMeta?.path ?? \"/events/zen2/:id()\",\n    meta: index85IECz0ASrMeta || {},\n    alias: index85IECz0ASrMeta?.alias || [],\n    redirect: index85IECz0ASrMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/zen2/[id]/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: registerVL0LKfR7uyMeta?.name ?? \"events-zen2-id-register\",\n    path: registerVL0LKfR7uyMeta?.path ?? \"/events/zen2/:id()/register\",\n    meta: registerVL0LKfR7uyMeta || {},\n    alias: registerVL0LKfR7uyMeta?.alias || [],\n    redirect: registerVL0LKfR7uyMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/zen2/[id]/register.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexqBoIOTo3QOMeta?.name ?? \"events-zen2\",\n    path: indexqBoIOTo3QOMeta?.path ?? \"/events/zen2\",\n    meta: indexqBoIOTo3QOMeta || {},\n    alias: indexqBoIOTo3QOMeta?.alias || [],\n    redirect: indexqBoIOTo3QOMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/events/zen2/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: exploreVjyfTPA943Meta?.name ?? \"explore\",\n    path: exploreVjyfTPA943Meta?.path ?? \"/explore\",\n    meta: exploreVjyfTPA943Meta || {},\n    alias: exploreVjyfTPA943Meta?.alias || [],\n    redirect: exploreVjyfTPA943Meta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/explore.vue\").then(m => m.default || m)\n  },\n  {\n    name: indexNxi8D1QctHMeta?.name ?? \"index\",\n    path: indexNxi8D1QctHMeta?.path ?? \"/\",\n    meta: indexNxi8D1QctHMeta || {},\n    alias: indexNxi8D1QctHMeta?.alias || [],\n    redirect: indexNxi8D1QctHMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/index.vue\").then(m => m.default || m)\n  },\n  {\n    name: privacyPolicyLjbiQ82CUiMeta?.name ?? \"privacyPolicy\",\n    path: privacyPolicyLjbiQ82CUiMeta?.path ?? \"/privacyPolicy\",\n    meta: privacyPolicyLjbiQ82CUiMeta || {},\n    alias: privacyPolicyLjbiQ82CUiMeta?.alias || [],\n    redirect: privacyPolicyLjbiQ82CUiMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/privacyPolicy.vue\").then(m => m.default || m)\n  },\n  {\n    name: successBjqFyZnGVKMeta?.name ?? \"success\",\n    path: successBjqFyZnGVKMeta?.path ?? \"/success\",\n    meta: successBjqFyZnGVKMeta || {},\n    alias: successBjqFyZnGVKMeta?.alias || [],\n    redirect: successBjqFyZnGVKMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/success.vue\").then(m => m.default || m)\n  },\n  {\n    name: termsL7y7cjim4NMeta?.name ?? \"terms\",\n    path: termsL7y7cjim4NMeta?.path ?? \"/terms\",\n    meta: termsL7y7cjim4NMeta || {},\n    alias: termsL7y7cjim4NMeta?.alias || [],\n    redirect: termsL7y7cjim4NMeta?.redirect || undefined,\n    component: () => import(\"D:/Ignite-self/frontend/pages/terms.vue\").then(m => m.default || m)\n  }\n]",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870465822,
+      "end": 1745870465822,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870465822,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870465823,
+      "end": 1745870465823,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870465824,
+      "end": 1745870465824,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870465824,
+      "end": 1745870465824,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870465824,
+      "end": 1745870465824,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870465824,
+      "end": 1745870465825,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870465825,
+      "end": 1745870465825,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870465825,
+      "end": 1745870465825,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870465825,
+      "end": 1745870465832,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870465832,
+      "end": 1745870465832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870465832,
+      "end": 1745870465832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870465832,
+      "end": 1745870465832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870465833,
+      "end": 1745870465833,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870465833,
+      "end": 1745870465833,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870465833,
+      "end": 1745870465833,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper.js\";import { default as cancelPolicy9Iwqbl7lD5Meta } from \"D:/Ignite-self/frontend/pages/cancelPolicy.vue?macro=true\";\nimport { default as check_45paymentlt2qaElNoOMeta } from \"D:/Ignite-self/frontend/pages/check-payment.vue?macro=true\";\nimport { default as indexaocULAi0AwMeta } from \"D:/Ignite-self/frontend/pages/events/aavhan/index.vue?macro=true\";\nimport { default as indexVfN6tj6sYZMeta } from \"D:/Ignite-self/frontend/pages/events/eventzen2/index.vue?macro=true\";\nimport { default as indexD9Vb1fUqhYMeta } from \"D:/Ignite-self/frontend/pages/events/eventzen3/index.vue?macro=true\";\nimport { default as index4jXgmFwZpTMeta } from \"D:/Ignite-self/frontend/pages/events/index.vue?macro=true\";\nimport { default as indexJ7oKvSuJImMeta } from \"D:/Ignite-self/frontend/pages/events/zen/index.vue?macro=true\";\nimport { default as index85IECz0ASrMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/[id]/index.vue?macro=true\";\nimport { default as registerVL0LKfR7uyMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/[id]/register.vue?macro=true\";\nimport { default as indexqBoIOTo3QOMeta } from \"D:/Ignite-self/frontend/pages/events/zen2/index.vue?macro=true\";\nimport { default as exploreVjyfTPA943Meta } from \"D:/Ignite-self/frontend/pages/explore.vue?macro=true\";\nimport { default as indexNxi8D1QctHMeta } from \"D:/Ignite-self/frontend/pages/index.vue?macro=true\";\nimport { default as privacyPolicyLjbiQ82CUiMeta } from \"D:/Ignite-self/frontend/pages/privacyPolicy.vue?macro=true\";\nimport { default as successBjqFyZnGVKMeta } from \"D:/Ignite-self/frontend/pages/success.vue?macro=true\";\nimport { default as termsL7y7cjim4NMeta } from \"D:/Ignite-self/frontend/pages/terms.vue?macro=true\";\nexport default [\n  {\n    name: cancelPolicy9Iwqbl7lD5Meta?.name ?? \"cancelPolicy\",\n    path: cancelPolicy9Iwqbl7lD5Meta?.path ?? \"/cancelPolicy\",\n    meta: cancelPolicy9Iwqbl7lD5Meta || {},\n    alias: cancelPolicy9Iwqbl7lD5Meta?.alias || [],\n    redirect: cancelPolicy9Iwqbl7lD5Meta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/cancelPolicy.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: check_45paymentlt2qaElNoOMeta?.name ?? \"check-payment\",\n    path: check_45paymentlt2qaElNoOMeta?.path ?? \"/check-payment\",\n    meta: check_45paymentlt2qaElNoOMeta || {},\n    alias: check_45paymentlt2qaElNoOMeta?.alias || [],\n    redirect: check_45paymentlt2qaElNoOMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/check-payment.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexaocULAi0AwMeta?.name ?? \"events-aavhan\",\n    path: indexaocULAi0AwMeta?.path ?? \"/events/aavhan\",\n    meta: indexaocULAi0AwMeta || {},\n    alias: indexaocULAi0AwMeta?.alias || [],\n    redirect: indexaocULAi0AwMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/aavhan/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexVfN6tj6sYZMeta?.name ?? \"events-eventzen2\",\n    path: indexVfN6tj6sYZMeta?.path ?? \"/events/eventzen2\",\n    meta: indexVfN6tj6sYZMeta || {},\n    alias: indexVfN6tj6sYZMeta?.alias || [],\n    redirect: indexVfN6tj6sYZMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/eventzen2/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexD9Vb1fUqhYMeta?.name ?? \"events-eventzen3\",\n    path: indexD9Vb1fUqhYMeta?.path ?? \"/events/eventzen3\",\n    meta: indexD9Vb1fUqhYMeta || {},\n    alias: indexD9Vb1fUqhYMeta?.alias || [],\n    redirect: indexD9Vb1fUqhYMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/eventzen3/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: index4jXgmFwZpTMeta?.name ?? \"events\",\n    path: index4jXgmFwZpTMeta?.path ?? \"/events\",\n    meta: index4jXgmFwZpTMeta || {},\n    alias: index4jXgmFwZpTMeta?.alias || [],\n    redirect: index4jXgmFwZpTMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexJ7oKvSuJImMeta?.name ?? \"events-zen\",\n    path: indexJ7oKvSuJImMeta?.path ?? \"/events/zen\",\n    meta: indexJ7oKvSuJImMeta || {},\n    alias: indexJ7oKvSuJImMeta?.alias || [],\n    redirect: indexJ7oKvSuJImMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/zen/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: index85IECz0ASrMeta?.name ?? \"events-zen2-id\",\n    path: index85IECz0ASrMeta?.path ?? \"/events/zen2/:id()\",\n    meta: index85IECz0ASrMeta || {},\n    alias: index85IECz0ASrMeta?.alias || [],\n    redirect: index85IECz0ASrMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/zen2/[id]/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: registerVL0LKfR7uyMeta?.name ?? \"events-zen2-id-register\",\n    path: registerVL0LKfR7uyMeta?.path ?? \"/events/zen2/:id()/register\",\n    meta: registerVL0LKfR7uyMeta || {},\n    alias: registerVL0LKfR7uyMeta?.alias || [],\n    redirect: registerVL0LKfR7uyMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/zen2/[id]/register.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexqBoIOTo3QOMeta?.name ?? \"events-zen2\",\n    path: indexqBoIOTo3QOMeta?.path ?? \"/events/zen2\",\n    meta: indexqBoIOTo3QOMeta || {},\n    alias: indexqBoIOTo3QOMeta?.alias || [],\n    redirect: indexqBoIOTo3QOMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/events/zen2/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: exploreVjyfTPA943Meta?.name ?? \"explore\",\n    path: exploreVjyfTPA943Meta?.path ?? \"/explore\",\n    meta: exploreVjyfTPA943Meta || {},\n    alias: exploreVjyfTPA943Meta?.alias || [],\n    redirect: exploreVjyfTPA943Meta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/explore.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: indexNxi8D1QctHMeta?.name ?? \"index\",\n    path: indexNxi8D1QctHMeta?.path ?? \"/\",\n    meta: indexNxi8D1QctHMeta || {},\n    alias: indexNxi8D1QctHMeta?.alias || [],\n    redirect: indexNxi8D1QctHMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/index.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: privacyPolicyLjbiQ82CUiMeta?.name ?? \"privacyPolicy\",\n    path: privacyPolicyLjbiQ82CUiMeta?.path ?? \"/privacyPolicy\",\n    meta: privacyPolicyLjbiQ82CUiMeta || {},\n    alias: privacyPolicyLjbiQ82CUiMeta?.alias || [],\n    redirect: privacyPolicyLjbiQ82CUiMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/privacyPolicy.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: successBjqFyZnGVKMeta?.name ?? \"success\",\n    path: successBjqFyZnGVKMeta?.path ?? \"/success\",\n    meta: successBjqFyZnGVKMeta || {},\n    alias: successBjqFyZnGVKMeta?.alias || [],\n    redirect: successBjqFyZnGVKMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/success.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  },\n  {\n    name: termsL7y7cjim4NMeta?.name ?? \"terms\",\n    path: termsL7y7cjim4NMeta?.path ?? \"/terms\",\n    meta: termsL7y7cjim4NMeta || {},\n    alias: termsL7y7cjim4NMeta?.alias || [],\n    redirect: termsL7y7cjim4NMeta?.redirect || undefined,\n    component: () => __vitePreload(() => import(\"D:/Ignite-self/frontend/pages/terms.vue\"),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0,import.meta.url).then(m => m.default || m)\n  }\n]",
+      "start": 1745870465833,
+      "end": 1745870465835,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870465835,
+      "end": 1745870465835,
+      "order": "normal"
+    }
+  ]
+}

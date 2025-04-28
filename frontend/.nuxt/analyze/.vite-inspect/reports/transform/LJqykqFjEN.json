@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/components/cardEvents.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "\r\n  \r\n<template>\r\n  <div >\r\n      <div class=\"flex items-center justify-center my-2 drop-shadow-xl lg:my-0 md:flex-row lg:flex-row \">\r\n        <img :src=\"image\" class=\"z-30 drop-shadow-2xl hidden md:block lg:block w-[200px] lg:w-[400px]\" />\r\n        <div\r\n          class=\"flex flex-col  justify-center items-center text-center lg:text-start rounded-lg drop-shadow-2xl lg:my-4  lg:h-[460px] z-30 bg-[#FFF4F0]   py-4 px-8 sm:p-12\">\r\n          <img :src=\"image\" class=\"z-30 drop-shadow-2xl py-4 w-[240px] md:hidden lg:hidden lg:w-[400px]\" />\r\n\r\n          <p class=\"text-[24px] mt-2 font-bold text-[#FF6246]\">About this event</p>\r\n          <p class=\"w-[250px] h-[200px]  text-ellipsis lg:w-[430px] text-sm py-4 sm:py-4 md:py-0 lg:py-0 flex lg:items-center lg:text-[20px]\">\r\n            {{ text }}\r\n          </p>\r\n          <!-- <button class=\" text-white bg-[#FF6246] px-6 py-2 rounded-md\">Know more</button>        -->\r\n        </div>\r\n      </div>\r\n  </div>\r\n</template>\r\n<script setup>\r\ndefineProps({\r\n  id: Number,\r\n  image: String,\r\n  text: String,\r\n});\r\n</script>\r\n\r\n",
+      "start": 1745870470900,
+      "end": 1745870471446,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870471446,
+      "end": 1745870471446,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"flex items-center justify-center my-2 drop-shadow-xl lg:my-0 md:flex-row lg:flex-row\" }\nconst _hoisted_2 = [\"src\"]\nconst _hoisted_3 = { class: \"flex flex-col justify-center items-center text-center lg:text-start rounded-lg drop-shadow-2xl lg:my-4 lg:h-[460px] z-30 bg-[#FFF4F0] py-4 px-8 sm:p-12\" }\nconst _hoisted_4 = [\"src\"]\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"p\", { class: \"text-[24px] mt-2 font-bold text-[#FF6246]\" }, \"About this event\", -1)\nconst _hoisted_6 = { class: \"w-[250px] h-[200px] text-ellipsis lg:w-[430px] text-sm py-4 sm:py-4 md:py-0 lg:py-0 flex lg:items-center lg:text-[20px]\" }\n\n\nconst _sfc_main = {\n  __name: 'cardEvents',\n  props: {\r\n  id: Number,\r\n  image: String,\r\n  text: String,\r\n},\n  setup(__props) {\n\r\n\r\n\nreturn (_ctx, _cache) => {\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"div\", _hoisted_1, [\n      _createElementVNode(\"img\", {\n        src: __props.image,\n        class: \"z-30 drop-shadow-2xl hidden md:block lg:block w-[200px] lg:w-[400px]\"\n      }, null, 8, _hoisted_2),\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"img\", {\n          src: __props.image,\n          class: \"z-30 drop-shadow-2xl py-4 w-[240px] md:hidden lg:hidden lg:w-[400px]\"\n        }, null, 8, _hoisted_4),\n        _hoisted_5,\n        _createElementVNode(\"p\", _hoisted_6, _toDisplayString(__props.text), 1)\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1745870471446,
+      "end": 1745870471449,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870471449,
+      "end": 1745870471449,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471449,
+      "end": 1745870471449,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870471449,
+      "end": 1745870471449,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870471450,
+      "end": 1745870471450,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870471450,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870471451,
+      "end": 1745870471451,
+      "order": "normal"
+    }
+  ]
+}

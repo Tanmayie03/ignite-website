@@ -1,0 +1,140 @@
+<script setup>
+import members from "/members.json";
+</script>
+<template>
+  <div class="mt-20 overflow-hidden lg:mt-0 font-lato">
+    <div class="relative w-full">
+      <img
+        src="https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973513/clipboard-image-1728940261_ocn1iu.png"
+        alt=""
+        class="w-screen -z-10" />
+      <div class="flex justify-center my-6 md:my-0">
+        <h1
+          class="absolute mx-12 text-center text-white text-7xl lg:mt-12 lg:text-8xl font-rampart top-16 sm:top-16">
+          Explore
+        </h1>
+      </div>
+      <div
+        class="absolute z-0 hidden my-16 text-white top-28 lg:top-56 md:block sm:hidden lg:block">
+        <p class="text-center font-lato lg:text-3xl">
+          What is Ignite Student Association ?
+        </p>
+        <p
+          class="font-light text-center lg:my-8 lg:text-xl lg:mx-8 font-lato md:mx-8 md:my-4">
+          Ignite SA is a student-led organisation that was founded in 2023.
+          Ignite is designed for both non-college and educational use. We are
+          here to encourage creative thinking, a multicultural setting, leisure
+          activities, and a positive competitive environment for the students.
+          We have the support of the EST Department of MIT College, Chh.
+          Sambhajinagar (Aurangabad) to ensure that we can provide everyone of
+          you with interesting new activities.
+        </p>
+      </div>
+    </div>
+    <div class="relative lg:flex lg:justify-center">
+      <div class="relative">
+        <div
+          class="flex flex-col mx-4 sm:mx-8 lg:w-[500px] bg-[#FEE7D8] px-8 min-w-1 lg:-mt-24 -mt-12 py-6">
+          <h1 class="pb-4 text-2xl lg:text-3xl font-rampart">Who are we?</h1>
+          <p class="lg:text-lg">
+            We are team Ignite, who created this association at the second year
+            of our college. At first, we were just a group of random students,
+            but we soon became very dissatisfied with our normal life, which is
+            when we came up with the idea to launch a fun series of activities
+            under this name. Our college, MIT, is backing us up. Establishing a
+            robust student network and fostering a collaborative atmosphere was
+            our primary goal. We're here right now to draw your attention to the
+            enjoyment we offer.
+          </p>
+        </div>
+      </div>
+      <div class="my-6 lg:my-0">
+        <div class="relative">
+          <img
+            src="https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771//ignite-assets/wxtbvaprbiry1xwe8bjs"
+            alt=""
+            class="md:w-full lg:w-[91%] md:mx-8" />
+          <div
+            class="absolute top-0 sm:top-[55%] md:left-24 lg:left-12 md:top-0 lg:-top-6 lg:right-12">
+            <img
+              src="https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708740301/Group_3325_kekjks.png"
+              alt=""
+              class="md:mx-0 md:my-12" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="bg-[#FEE7D8] lg:py-12 lg:text-xl text-[#A3592B] text-center py-6 px-4 sm:px-8 font-medium font-lato">
+      "Elevate your college experience by becoming part of a our community
+      dedicated to fostering collaboration, building a strong network, and
+      exploring exciting activities. Together, let's shape a future of
+      innovation and connection!"
+    </div>
+
+    <div class="flex flex-col lg:items-center lg:mt-6 lg:flex-row">
+      <div
+        class="px-8 py-6 ml-0 text-lg font-medium text-center lg:text-start lg:px-12 lg:text-xl sm:px-12 font-lato">
+        We are currently connected to maximum 500+ students under campus and had
+        a great experience with this buddies.
+      </div>
+      <div class="flex justify-center mx-0 md:justify-center md:my-4 sm:mx-12">
+        <div class="bg-[#FFDDD1] mr-2 text-center p-4 rounded-lg">
+          <p class="text-2xl font-rampart text-[#FF6246]">500+</p>
+          <p class="text-xl font-semibold text-stone-600 font-lato">
+            Connections
+          </p>
+        </div>
+        <div class="bg-[#FFDDD1] mx-0 text-center p-4 rounded-lg">
+          <p class="text-2xl font-rampart text-[#FF6246]">1000+</p>
+          <p class="text-xl font-semibold text-stone-600 font-lato">
+            Registration
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="text-[#A3592B] pl-6 my-8">
+      <h1 class="m-2 md:text-2xl font-lato text-[#FF6246]">
+        Message from Department
+      </h1>
+      <div class="flex flex-col w-full md:flex-row">
+        <img
+          src="https://res.cloudinary.com/dy7zpv1ij/image/upload/v1709051987/Group_3309_xztxej.png"
+          class="md:w-1/2" />
+        <img
+          src="https://res.cloudinary.com/dy7zpv1ij/image/upload/v1709051987/Group_3307_2_r0mtna.png"
+          class="md:w-1/2" />
+      </div>
+    </div>
+    <div class="flex relative mx-6 mt-12 lg:mx-[40%] md:mx-[25%] w-[400px]">
+      <div class="mt-6 ml-6 md:ml-0 md:mt-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="84"
+          height="67"
+          viewBox="0 0 84 67"
+          fill="none">
+          <path
+            d="M78.282 9.41565C75.4643 13.7273 72.7456 17.7005 72.271 18.2515C71.1602 19.4254 69.6139 18.8004 70.0081 17.3794C70.2101 16.8366 69.9016 15.6378 69.3851 14.7808L68.5195 13.1961L63.4999 15.0233C51.894 19.1942 40.4491 25.105 40.501 26.8482C40.511 27.1835 41.5401 28.7634 42.7913 30.4708C47.8445 37.0981 50.5366 46.8825 48.615 51.9728C46.643 57.1987 43.9694 59.0232 40.9699 57.2336C38.3034 55.6353 35.242 51.7673 33.7694 48.1203C30.8221 40.7593 31.1469 35.1797 34.6453 29.9083C35.7966 28.2634 36.6693 26.4255 36.6513 25.8221C36.6353 25.2857 35.2771 23.6485 33.6524 22.2206C21.3285 11.4481 10.8467 16.7263 10.3244 33.9882L10.1452 38.9595L13.5248 38.8588C18.8669 38.6996 22.482 41.0077 24.7597 46.04C26.5129 49.947 26.8308 53.2929 25.7315 56.681C24.4826 60.5433 22.6146 61.9411 20.2892 60.8024C16.9707 59.2907 11.609 51.4648 9.97137 45.9437C8.93882 42.4178 8.60176 42.0924 6.83688 43.2858C2.45291 46.302 1.4075 51.5003 3.93124 57.4647C4.80683 59.3847 6.41902 62.2223 7.50067 63.7335C10.4551 67.6719 9.07633 67.1761 5.73436 63.048C0.979683 57.2842 -0.466409 52.697 1.04106 48.3572C2.09988 45.4401 4.51348 42.2142 6.55291 41.0797C7.94821 40.3 7.99474 40.0301 8.152 34.3214C8.31983 27.136 9.66975 23.0023 13.2566 18.869C19.0085 12.3225 27.1725 13.4885 35.5563 22.0297C36.963 23.4641 38.3092 24.699 38.5272 24.6925C38.6908 24.6876 41.2088 23.1363 44.1004 21.3054C47.5272 19.123 52.4217 16.7626 58.0874 14.6477L66.8302 11.4345L66.4113 8.36009L65.9923 5.28567L69.1565 3.44664C74.1421 0.479617 83.3164 -1.06877 83.3803 1.07674C83.3883 1.34492 81.0997 5.10398 78.282 9.41565ZM75.8168 3.58373C74.355 3.96282 72.249 4.69662 71.1183 5.20005C69.2889 6.05984 69.0808 6.40157 69.3003 8.27402C69.3908 9.47924 69.8888 11.5447 70.4193 12.871L71.3654 15.3258L74.9768 10.1852C79.4244 3.81177 79.6065 2.59843 75.8168 3.58373ZM45.4475 39.0485C43.3453 34.4136 39.4448 28.0205 38.6271 28.0449C37.973 28.0644 35.8725 30.8112 34.5351 33.5353C33.9674 34.6259 33.6983 36.5801 33.7802 39.329C33.8801 42.6813 34.2551 44.2807 35.8933 47.9899C38.058 52.8913 40.0803 54.8442 42.8058 54.763C45.8584 54.6721 47.1978 52.015 47.0845 46.3814C46.9986 43.4984 46.5611 41.6325 45.4475 39.0485ZM22.5008 45.302C20.8361 42.5331 18.2322 41.2015 14.5234 41.2449C11.1963 41.2769 11.1963 41.2769 11.3613 43.1509C11.9426 49.8443 20.6163 60.7927 23.0984 58.0345C24.6333 56.4453 24.22 48.0693 22.5008 45.302Z"
+            fill="black" />
+        </svg>
+      </div>
+      <p
+        class="pr-20 font-semibold text-center sm:pr-12 lg:text-xl md:text-xl sm:text-md font-lato">
+        We’re a fun loving squad, Thrilled by what we do
+      </p>
+    </div>
+    <div class="w-full px-8 md:px-10">
+      <div
+        class="grid justify-center grid-cols-2 gap-4 lg:grid-cols-5 md:grid-cols-3">
+        <div
+          class="flex justify-center"
+          v-for="(m, index) in members"
+          :key="index">
+          <img :src="m.image" class="w-full" />
+        </div>
+      </div>
+      <!-- <p class="absolute hidden -mt-40 -rotate-90 -left-16 text-[#FF6246] text-6xl top lg:block font-rampart">TEAM IGNITE</p> -->
+    </div>
+  </div>
+</template>

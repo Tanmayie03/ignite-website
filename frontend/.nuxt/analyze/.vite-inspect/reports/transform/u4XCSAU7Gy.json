@@ -1,0 +1,223 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/pages/success.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <h1\r\n      class=\"text-4xl md:text-7xl text-center font-rampart pt-24 lg:pt-8 text-[#ff6246]\">\r\n      EventZen3.0\r\n    </h1>\r\n    <div\r\n      class=\"flex flex-col items-center justify-center w-full px-6 my-8 text-center\">\r\n      <h1 class=\"text-3xl md:text-4xl text-[#ff6246] font-semibold\">\r\n        Hurray!!\r\n      </h1>\r\n      <h1 class=\"my-4 text-2xl font-semibold\">\r\n        You have successfully registered for this event\r\n      </h1>\r\n      <h1 class=\"text-xl text-gray-800\">\r\n        (Kindly please check your confirmation mail in your mailbox)\r\n      </h1>\r\n      <img\r\n        src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706837382/hurrayImg_y5ymi9.png\"\r\n        class=\"md:w-1/3\" />\r\n      <NuxtLink to=\"/\"\r\n        ><button class=\"bg-[#ff6246] px-6 py-2 rounded my-4 text-white\">\r\n          Go home\r\n        </button></NuxtLink\r\n      >\r\n    </div>\r\n  </div>\r\n</template>\r\n",
+      "start": 1745870466204,
+      "end": 1745870468471,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870468471,
+      "end": 1745870468471,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870468471,
+      "end": 1745870468471,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870468471,
+      "end": 1745870468471,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870468471,
+      "end": 1745870468471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870468472,
+      "end": 1745870468472,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870468472,
+      "end": 1745870468472,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870468472,
+      "end": 1745870468472,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-4xl md:text-7xl text-center font-rampart pt-24 lg:pt-8 text-[#ff6246]\" }, \" EventZen3.0 \", -1)\nconst _hoisted_2 = { class: \"flex flex-col items-center justify-center w-full px-6 my-8 text-center\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-3xl md:text-4xl text-[#ff6246] font-semibold\" }, \" Hurray!! \", -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"h1\", { class: \"my-4 text-2xl font-semibold\" }, \" You have successfully registered for this event \", -1)\nconst _hoisted_5 = /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-xl text-gray-800\" }, \" (Kindly please check your confirmation mail in your mailbox) \", -1)\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"img\", {\n  src: \"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706837382/hurrayImg_y5ymi9.png\",\n  class: \"md:w-1/3\"\n}, null, -1)\nconst _hoisted_7 = /*#__PURE__*/_createElementVNode(\"button\", { class: \"bg-[#ff6246] px-6 py-2 rounded my-4 text-white\" }, \" Go home \", -1)\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _hoisted_1,\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _hoisted_4,\n      _hoisted_5,\n      _hoisted_6,\n      _createVNode(_component_NuxtLink, { to: \"/\" }, {\n        default: _withCtx(() => [\n          _hoisted_7\n        ]),\n        _: 1\n      })\n    ])\n  ]))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1745870468472,
+      "end": 1745870468474,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870468474,
+      "end": 1745870468474,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870468474,
+      "end": 1745870468474,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870468474,
+      "end": 1745870468474,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870468475,
+      "end": 1745870468475,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870468475,
+      "end": 1745870468476,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870468476,
+      "end": 1745870468476,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1745870468476,
+      "end": 1745870468477,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870468477,
+      "end": 1745870468477,
+      "order": "normal"
+    }
+  ]
+}

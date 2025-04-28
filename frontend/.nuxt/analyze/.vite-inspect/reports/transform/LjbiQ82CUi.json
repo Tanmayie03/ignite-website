@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/pages/privacyPolicy.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n      <div class=\"px-6 pt-20 md:mt-0 md:pt-8 md:px-12 font-lato\">\r\n        <h1 class=\"py-4 text-4xl font-bold text-primary\">\r\n          Ignite Student Association Privacy Policy\r\n        </h1>\r\n        <div class=\"w-full h-[2px] my-2 bg-slate-500\"></div>\r\n        <div class=\"py-4\">\r\n          <h1 class=\"text-lg font-semibold\">1. Introduction:</h1>\r\n          <p class=\"pl-4 md:pl-12\">\r\n            This privacy policy explains how Ignite Student Association (\"we,\"\r\n            \"us,\" or \"our\") collects, uses, and discloses your personal\r\n            information when you use our website, register for events, or interact\r\n            with us online or offline.\r\n          </p>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">2. Information We Collect:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1\">\r\n              Personal Information: Name, email address, student ID, phone number,\r\n              dietary restrictions (if applicable) collected during event\r\n              registration.\r\n            </li>\r\n            <li class=\"py-1\">\r\n              Event Information: Event registration details, attendance records,\r\n              feedback surveys.\r\n            </li>\r\n            <li class=\"py-1\">\r\n              Website Usage: Log data (IP address, browser type, page views),\r\n              cookies (if used).\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">3. How We Use Your Information:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1\">Manage event registrations and logistics.</li>\r\n            <li class=\"py-1\">Communicate event updates and reminders.</li>\r\n            <li class=\"py-1\">Conduct surveys and collect feedback.</li>\r\n            <li class=\"py-1\">Improve our website and services.</li>\r\n            <li class=\"py-1\">Comply with legal obligations.</li>\r\n          </ul>\r\n          <h1 class=\"text-lg font-semibold\">4. Information Sharing:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1\">\r\n              We will not share your personal information with third parties\r\n              without your consent, except:\r\n            </li>\r\n            <li class=\"py-1\">\r\n              Event co-organizers or sponsors (limited information based on event\r\n              needs).\r\n            </li>\r\n            <li class=\"py-1\">\r\n              Service providers who help us manage events or maintain our website\r\n              (bound by confidentiality agreements).\r\n            </li>\r\n            <li class=\"py-1\">\r\n              As required by law or to protect our rights and safety.\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">5. Data Retention:</h1>\r\n          <ul class=\"pl-12\">\r\n            <li class=\"py-1\">\r\n              We will retain your personal information for as long as it is\r\n              necessary to fulfill the purposes outlined in this policy, unless a\r\n              longer retention period is required by law.\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">6. Data Security:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1\">\r\n              We implement reasonable security measures to protect your personal\r\n              information from unauthorized access, disclosure, alteration, or\r\n              destruction.\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">7. Your Rights:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1\">\r\n              You have the right to access, modify, or delete your personal\r\n              information.\r\n            </li>\r\n            <li class=\"py-1\">You can opt out of marketing communications.</li>\r\n            <li class=\"py-1\">\r\n              To exercise your rights, please contact us at [contact email].\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">8. Children's Privacy:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-2\">\r\n              We do not knowingly collect or solicit personal information from\r\n              children under the age of 13.\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">9. Changes to this Policy:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-2\">We may update this policy from time to time.</li>\r\n          </ul>\r\n          <h1 class=\"pt-2 text-lg font-semibold\">10. Contact Us:</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-2\">\r\n              For any questions or concerns, please contact us at [contact email].\r\n              Note: This is a template, and you may need to adapt it to your\r\n              specific needs and comply with relevant data protection regulations,\r\n              such as GDPR or CCPA.\r\n            </li>\r\n          </ul>\r\n          <h1 class=\"py-2 text-lg font-semibold\">Additional Tips</h1>\r\n          <ul class=\"pl-12 list-disc\">\r\n            <li class=\"py-1 list-disc\">\r\n              Be specific about the type of data you collect and its purpose.\r\n            </li>\r\n            <li class=\"py-1 list-disc\">Explain how you protect user data.</li>\r\n            <li class=\"py-1 list-disc\">\r\n              Make it easy for users to understand their rights and exercise them.\r\n            </li>\r\n            <li class=\"py-1 list-disc\">\r\n              Regularly review and update your privacy policy as needed.\r\n            </li>\r\n            <li class=\"py-1 list-disc\">\r\n              Consider seeking legal advice for a comprehensive and legally\r\n              compliant policy.\r\n            </li>\r\n            <li class=\"py-1 list-disc\">\r\n              Remember, transparency and user trust are crucial for any\r\n              association handling personal information. By creating a clear and\r\n              comprehensive privacy policy, you demonstrate your commitment to\r\n              protecting user data and building trust with your audience.\r\n            </li>\r\n          </ul>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </template>\r\n  ",
+      "start": 1745870468357,
+      "end": 1745870469826,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870469827,
+      "end": 1745870469827,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"px-6 pt-20 md:mt-0 md:pt-8 md:px-12 font-lato\\\"><h1 class=\\\"py-4 text-4xl font-bold text-primary\\\"> Ignite Student Association Privacy Policy </h1><div class=\\\"w-full h-[2px] my-2 bg-slate-500\\\"></div><div class=\\\"py-4\\\"><h1 class=\\\"text-lg font-semibold\\\">1. Introduction:</h1><p class=\\\"pl-4 md:pl-12\\\"> This privacy policy explains how Ignite Student Association (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) collects, uses, and discloses your personal information when you use our website, register for events, or interact with us online or offline. </p><h1 class=\\\"pt-2 text-lg font-semibold\\\">2. Information We Collect:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1\\\"> Personal Information: Name, email address, student ID, phone number, dietary restrictions (if applicable) collected during event registration. </li><li class=\\\"py-1\\\"> Event Information: Event registration details, attendance records, feedback surveys. </li><li class=\\\"py-1\\\"> Website Usage: Log data (IP address, browser type, page views), cookies (if used). </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">3. How We Use Your Information:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1\\\">Manage event registrations and logistics.</li><li class=\\\"py-1\\\">Communicate event updates and reminders.</li><li class=\\\"py-1\\\">Conduct surveys and collect feedback.</li><li class=\\\"py-1\\\">Improve our website and services.</li><li class=\\\"py-1\\\">Comply with legal obligations.</li></ul><h1 class=\\\"text-lg font-semibold\\\">4. Information Sharing:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1\\\"> We will not share your personal information with third parties without your consent, except: </li><li class=\\\"py-1\\\"> Event co-organizers or sponsors (limited information based on event needs). </li><li class=\\\"py-1\\\"> Service providers who help us manage events or maintain our website (bound by confidentiality agreements). </li><li class=\\\"py-1\\\"> As required by law or to protect our rights and safety. </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">5. Data Retention:</h1><ul class=\\\"pl-12\\\"><li class=\\\"py-1\\\"> We will retain your personal information for as long as it is necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required by law. </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">6. Data Security:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1\\\"> We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">7. Your Rights:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1\\\"> You have the right to access, modify, or delete your personal information. </li><li class=\\\"py-1\\\">You can opt out of marketing communications.</li><li class=\\\"py-1\\\"> To exercise your rights, please contact us at [contact email]. </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">8. Children&#39;s Privacy:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-2\\\"> We do not knowingly collect or solicit personal information from children under the age of 13. </li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">9. Changes to this Policy:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-2\\\">We may update this policy from time to time.</li></ul><h1 class=\\\"pt-2 text-lg font-semibold\\\">10. Contact Us:</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-2\\\"> For any questions or concerns, please contact us at [contact email]. Note: This is a template, and you may need to adapt it to your specific needs and comply with relevant data protection regulations, such as GDPR or CCPA. </li></ul><h1 class=\\\"py-2 text-lg font-semibold\\\">Additional Tips</h1><ul class=\\\"pl-12 list-disc\\\"><li class=\\\"py-1 list-disc\\\"> Be specific about the type of data you collect and its purpose. </li><li class=\\\"py-1 list-disc\\\">Explain how you protect user data.</li><li class=\\\"py-1 list-disc\\\"> Make it easy for users to understand their rights and exercise them. </li><li class=\\\"py-1 list-disc\\\"> Regularly review and update your privacy policy as needed. </li><li class=\\\"py-1 list-disc\\\"> Consider seeking legal advice for a comprehensive and legally compliant policy. </li><li class=\\\"py-1 list-disc\\\"> Remember, transparency and user trust are crucial for any association handling personal information. By creating a clear and comprehensive privacy policy, you demonstrate your commitment to protecting user data and building trust with your audience. </li></ul></div></div>\", 1)\nconst _hoisted_2 = [\n  _hoisted_1\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", null, _hoisted_2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1745870469827,
+      "end": 1745870469830,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870469830,
+      "end": 1745870469830,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870469830,
+      "end": 1745870469831,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870469831,
+      "end": 1745870469831,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870469831,
+      "end": 1745870469831,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870469831,
+      "end": 1745870469832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870469832,
+      "end": 1745870469832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870469832,
+      "end": 1745870469832,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870469832,
+      "end": 1745870469832,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870469832,
+      "end": 1745870469832,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870469832,
+      "end": 1745870469832,
+      "order": "normal"
+    }
+  ]
+}

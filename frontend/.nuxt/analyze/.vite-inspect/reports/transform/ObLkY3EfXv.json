@@ -1,0 +1,223 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/pages/events/aavhan/index.vue?macro=true",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div>\r\n    <div class=\"px-6 font-lato lg:pl-8\">\r\n      <h1\r\n        class=\"text-5xl pt-20 md:text-6xl text-center font-rampart lg:pt-8 text-[#ff6246]\">\r\n        Aavhan\r\n      </h1>\r\n      <!-- <h1 class=\"px-2 my-2 text-2xl font-bold text-primary\">About the event:-</h1> -->\r\n      <div class=\"flex flex-col my-12 md:my-8 lg:flex-row\">\r\n        <div class=\"flex flex-col justify-center\">\r\n          <img\r\n            src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973512/aavhan_hqumcd.png\"\r\n            class=\"-mt-8\" />\r\n        </div>\r\n\r\n        <div class=\"lg:mx-4 lg:w-1/2\">\r\n          <div class=\"flex flex-col lg:flex-col\">\r\n            <h1 class=\"px-2 mt-12 text-2xl font-bold text-primary\">\r\n              About the event:-\r\n            </h1>\r\n\r\n            <!-- <img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706961908/avahanLogo_1_fzhrts.png\" class=\" lg:w-[50%]\" /> -->\r\n            <p class=\"mx-2 my-6 text-lg lg:my-0\">\r\n              <span class=\"text-primary\">Ignite Student Association</span>\r\n              successfully organized <span class=\"text-primary\">Aavhan</span>,\r\n              its second event, featuring a diverse range of activities such as\r\n              gaming (including COD and BGMI), video editing, ideathon, Ui/Ux\r\n              and many more. The event witnessed an enthusiastic participation\r\n              with over 300 registrations from students. The vibrant engagement\r\n              and lively atmosphere showcased the students' joy and overwhelming\r\n              enthusiasm. The positive response has bolstered our confidence to\r\n              organize more events in the future. All participants received\r\n              certificates, while winners were rewarded with goodies and cash\r\n              prizes. Conducting such events was a delightful and enjoyable\r\n              experience for us.\r\n            </p>\r\n            <div class=\"p-4 mt-6 bg-event-backdrop\">\r\n              <div\r\n                class=\"flex flex-col md:flex-row md:justify-around bg-[#FEE7D8] p-4 rounded-md\">\r\n                <div class=\"flex items-center my-2\">\r\n                  <div class=\"\">\r\n                    <svg\r\n                      xmlns=\"http://www.w3.org/2000/svg\"\r\n                      fill=\"none\"\r\n                      viewBox=\"0 0 24 24\"\r\n                      stroke-width=\"1.5\"\r\n                      stroke=\"currentColor\"\r\n                      class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                      <path\r\n                        stroke-linecap=\"round\"\r\n                        stroke-linejoin=\"round\"\r\n                        d=\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" />\r\n                    </svg>\r\n                  </div>\r\n                  <p class=\"mx-2 text-lg font-semibold\">\r\n                    When:- 24/04/23 To 26/04/23\r\n                  </p>\r\n                </div>\r\n                <div class=\"flex items-center my-2\">\r\n                  <div class=\"\">\r\n                    <svg\r\n                      xmlns=\"http://www.w3.org/2000/svg\"\r\n                      fill=\"none\"\r\n                      viewBox=\"0 0 24 24\"\r\n                      stroke-width=\"1.5\"\r\n                      stroke=\"currentColor\"\r\n                      class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                      <path\r\n                        stroke-linecap=\"round\"\r\n                        stroke-linejoin=\"round\"\r\n                        d=\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\" />\r\n                    </svg>\r\n                  </div>\r\n                  <p class=\"mx-2 text-lg font-semibold\">Type:- Online</p>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"bg-[#FEE7D8] relative mt-24 p-8\">\r\n        <img\r\n          src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706961908/avahanLogo_1_fzhrts.png\"\r\n          class=\"absolute w-[60%] lg:w-[20%] -top-10 right-2 lg:right-12\" />\r\n\r\n        <h1 class=\"py-4 text-3xl lg:px-8 font-rampart\">Winners:</h1>\r\n        <div\r\n          class=\"grid items-start justify-center grid-cols-1 gap-2 py-2 grid-col lg:px-8 lg:grid-cols-5 md:grid-cols-3\">\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-rampart text-primary\">1. Gpt prompt</p>\r\n            <ol class=\"px-8 py-2 list-decimal\">\r\n              <li>Abhishek Jadhav</li>\r\n              <li>Piyush Rane</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-rampart text-primary\">2. Ideathon</p>\r\n            <ol class=\"px-8 py-2 list-decimal\">\r\n              <li>Varad Puranik</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-rampart text-primary\">3. UI UX DESIGNING</p>\r\n            <ol class=\"px-8 py-2 list-decimal\">\r\n              <li>Vaibhav Lokhande</li>\r\n              <li>Manali Satpute</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-rampart text-primary\">4. Video Editing</p>\r\n            <ol class=\"px-8 py-2 list-decimal\">\r\n              <li>Yash Gosavi</li>\r\n              <li>Vivek Jadhav</li>\r\n            </ol>\r\n          </div>\r\n          <!-- <div class=\"flex flex-col items-start text-lg\">\r\n                  <p class=\"font-rampart text-primary\">5. Photography </p>\r\n                  <ol class=\"px-8 list-decimal\">\r\n                      <li>uiefioef</li>\r\n                      <li>fvsfieufl</li>\r\n                  </ol>\r\n              </div> -->\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n",
+      "start": 1745870465956,
+      "end": 1745870468184,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870468184,
+      "end": 1745870468184,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870468184,
+      "end": 1745870468185,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"px-6 font-lato lg:pl-8\\\"><h1 class=\\\"text-5xl pt-20 md:text-6xl text-center font-rampart lg:pt-8 text-[#ff6246]\\\"> Aavhan </h1><div class=\\\"flex flex-col my-12 md:my-8 lg:flex-row\\\"><div class=\\\"flex flex-col justify-center\\\"><img src=\\\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973512/aavhan_hqumcd.png\\\" class=\\\"-mt-8\\\"></div><div class=\\\"lg:mx-4 lg:w-1/2\\\"><div class=\\\"flex flex-col lg:flex-col\\\"><h1 class=\\\"px-2 mt-12 text-2xl font-bold text-primary\\\"> About the event:- </h1><p class=\\\"mx-2 my-6 text-lg lg:my-0\\\"><span class=\\\"text-primary\\\">Ignite Student Association</span> successfully organized <span class=\\\"text-primary\\\">Aavhan</span>, its second event, featuring a diverse range of activities such as gaming (including COD and BGMI), video editing, ideathon, Ui/Ux and many more. The event witnessed an enthusiastic participation with over 300 registrations from students. The vibrant engagement and lively atmosphere showcased the students&#39; joy and overwhelming enthusiasm. The positive response has bolstered our confidence to organize more events in the future. All participants received certificates, while winners were rewarded with goodies and cash prizes. Conducting such events was a delightful and enjoyable experience for us. </p><div class=\\\"p-4 mt-6 bg-event-backdrop\\\"><div class=\\\"flex flex-col md:flex-row md:justify-around bg-[#FEE7D8] p-4 rounded-md\\\"><div class=\\\"flex items-center my-2\\\"><div class=\\\"\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"none\\\" viewBox=\\\"0 0 24 24\\\" stroke-width=\\\"1.5\\\" stroke=\\\"currentColor\\\" class=\\\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\\\"><path stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" d=\\\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\\\"></path></svg></div><p class=\\\"mx-2 text-lg font-semibold\\\"> When:- 24/04/23 To 26/04/23 </p></div><div class=\\\"flex items-center my-2\\\"><div class=\\\"\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" fill=\\\"none\\\" viewBox=\\\"0 0 24 24\\\" stroke-width=\\\"1.5\\\" stroke=\\\"currentColor\\\" class=\\\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\\\"><path stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" d=\\\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\\\"></path></svg></div><p class=\\\"mx-2 text-lg font-semibold\\\">Type:- Online</p></div></div></div></div></div></div><div class=\\\"bg-[#FEE7D8] relative mt-24 p-8\\\"><img src=\\\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706961908/avahanLogo_1_fzhrts.png\\\" class=\\\"absolute w-[60%] lg:w-[20%] -top-10 right-2 lg:right-12\\\"><h1 class=\\\"py-4 text-3xl lg:px-8 font-rampart\\\">Winners:</h1><div class=\\\"grid items-start justify-center grid-cols-1 gap-2 py-2 grid-col lg:px-8 lg:grid-cols-5 md:grid-cols-3\\\"><div class=\\\"flex flex-col items-start text-lg\\\"><p class=\\\"font-rampart text-primary\\\">1. Gpt prompt</p><ol class=\\\"px-8 py-2 list-decimal\\\"><li>Abhishek Jadhav</li><li>Piyush Rane</li></ol></div><div class=\\\"flex flex-col items-start text-lg\\\"><p class=\\\"font-rampart text-primary\\\">2. Ideathon</p><ol class=\\\"px-8 py-2 list-decimal\\\"><li>Varad Puranik</li></ol></div><div class=\\\"flex flex-col items-start text-lg\\\"><p class=\\\"font-rampart text-primary\\\">3. UI UX DESIGNING</p><ol class=\\\"px-8 py-2 list-decimal\\\"><li>Vaibhav Lokhande</li><li>Manali Satpute</li></ol></div><div class=\\\"flex flex-col items-start text-lg\\\"><p class=\\\"font-rampart text-primary\\\">4. Video Editing</p><ol class=\\\"px-8 py-2 list-decimal\\\"><li>Yash Gosavi</li><li>Vivek Jadhav</li></ol></div></div></div></div>\", 1)\nconst _hoisted_2 = [\n  _hoisted_1\n]\n\nfunction _sfc_render(_ctx, _cache) {\n  return (_openBlock(), _createElementBlock(\"div\", null, _hoisted_2))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1745870468185,
+      "end": 1745870468192,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870468192,
+      "end": 1745870468192,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870468192,
+      "end": 1745870468193,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870468193,
+      "end": 1745870468193,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "result": "\nconst __nuxt_page_meta = null\nexport default __nuxt_page_meta\n",
+      "start": 1745870468193,
+      "end": 1745870468193,
+      "order": "post",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          ""
+        ],
+        "names": [],
+        "mappings": "AAAA;AAAA;AAAA;AAAA"
+      }
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870468193,
+      "end": 1745870468194,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870468194,
+      "end": 1745870468194,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870468194,
+      "end": 1745870468194,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870468194,
+      "end": 1745870468194,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870468194,
+      "end": 1745870468194,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870468194,
+      "end": 1745870468194,
+      "order": "normal"
+    }
+  ]
+}

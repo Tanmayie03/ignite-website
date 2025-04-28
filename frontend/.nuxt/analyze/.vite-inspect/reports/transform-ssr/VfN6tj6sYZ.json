@@ -1,0 +1,258 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/pages/events/eventzen2/index.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n      <div class=\"px-6 overflow-hidden font-lato lg:pl-8\">\r\n        <h1\r\n          class=\"text-5xl pt-20 md:text-6xl text-center font-rampart lg:pt-8 text-[#ff6246]\">\r\n          EventZen2.0\r\n        </h1>\r\n        <!-- <h1 class=\"px-2 my-2 text-2xl font-bold text-primary\">About the event:-</h1> -->\r\n        <div class=\"flex flex-col my-12 md:my-12 lg:flex-row\">\r\n          <div class=\"flex flex-col text-center lg:w-9/12 lg:items-start lg:justify-center\">\r\n            <img\r\n              src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973513/final_last-min_oqydam.jpg\"\r\n              class=\"mx-auto lg:mx-0\" data-aos=\"fade-right\"/>\r\n          </div>\r\n  \r\n          <div class=\"my-4 lg:mx-4 lg:my-0 lg:w-1/2\" data-aos=\"fade-left\">\r\n            <div class=\"flex flex-col items-center justify-start lg:items-start lg:flex-col\">\r\n              <h1 class=\"px-2 text-2xl font-bold text-primary\">About the event:-</h1>\r\n  \r\n              <!-- <img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706961908/avahanLogo_1_fzhrts.png\" class=\" lg:w-[50%]\" /> -->\r\n              <p class=\"mx-2 my-6 text-lg text-justify lg:my-2 lg:text-start\">\r\n                <span class=\"text-primary\">\r\n                  Ignite Student Association's</span> third event, <span class=\"text-primary\">EventZen2.0</span>, was a success with over 200 student registrations. The event offered activities like BGMI gaming, video editing, coding, and Ui/Ux design. The enthusiastic participation and positive response have motivated the organizers to hold more events in the future. All participants will receive certificates, and winners will get goodies and cash prizes.\r\n                \r\n              </p>\r\n              <div class=\"w-full p-4 mt-6 bg-event-backdrop\">\r\n                <div\r\n                  class=\"flex flex-col md:flex-row md:justify-around bg-[#FEE7D8] p-4 rounded-md\">\r\n                  <div class=\"flex items-center my-2\">\r\n                    <div class=\"\">\r\n                      <svg\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                        fill=\"none\"\r\n                        viewBox=\"0 0 24 24\"\r\n                        stroke-width=\"1.5\"\r\n                        stroke=\"currentColor\"\r\n                        class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                        <path\r\n                          stroke-linecap=\"round\"\r\n                          stroke-linejoin=\"round\"\r\n                          d=\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" />\r\n                      </svg>\r\n                    </div>\r\n                    <p class=\"mx-2 text-base font-semibold\">\r\n                      08/03/24 To 11/03/24\r\n                    </p>\r\n                  </div>\r\n                  <div class=\"flex items-center m-2\">\r\n                    <div class=\"\">\r\n                      <svg\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                        fill=\"none\"\r\n                        viewBox=\"0 0 24 24\"\r\n                        stroke-width=\"1.5\"\r\n                        stroke=\"currentColor\"\r\n                        class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                        <path\r\n                          stroke-linecap=\"round\"\r\n                          stroke-linejoin=\"round\"\r\n                          d=\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\" />\r\n                      </svg>\r\n                    </div>\r\n                    <p class=\"mx-2 text-base font-semibold\">Type:- Online</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"relative lg:z-20 bg-cover bg-[#FEE7D8] md:bg-transparent md:h-96 md:bg-winner-banner \" data-aos=\"flip-right\">\r\n      <img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1710523740/eventzen2.0ds_pnqgcz.png\" class=\"absolute right-2 -top-6 lg:right-12 w-[60%] lg:w-[30%] lg:-top-2\" />\r\n<div class=\"flex flex-col px-6 lg:justify-center lg:px-0 lg:mx-10 lg:my-20\">\r\n  <div class=\"py-12 md:py-20\">\r\n\r\n  \r\n        <h1 class=\"py-4 text-3xl font-rampart\">Winners:</h1>\r\n        <div\r\n          class=\"grid items-start justify-center grid-cols-1 gap-2 py-2 grid-col lg:grid-cols-6 md:grid-cols-3\">\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">1. Coding Competition</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Yograj Rana</li>\r\n              <li>Shruti Ingole</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">2. Quiz Competition </p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Anish Jewalikar</li>\r\n              <li>Saurav Ambhore</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">3. UI/UX Designing</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Vaibhav Lokhande</li>\r\n              <li>Manali Satpute</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">4. Video Editing</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Vansh Agashe</li>\r\n              <li>Sumit Halge</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n                  <p class=\"font-lato text-primary\">5. Prompt Generation </p>\r\n                  <ol class=\"px-8 py-2 text-base list-decimal\">\r\n                      <li>Sujal Tonge</li>\r\n                      <li>Shruti Rajput</li>\r\n                  </ol>\r\n              </div>\r\n          <div class=\"flex flex-col items-start w-full text-lg\">\r\n                  <p class=\"font-lato text-primary\">6. BGMI Gaming </p>\r\n                  <ol class=\"px-8 py-2 text-base list-decimal\">\r\n                      <li>Team Mafia</li>\r\n                      <li>NWA Gang Gang</li>\r\n                  </ol>\r\n              </div>\r\n        </div>\r\n      </div>\r\n      </div>\r\n  </img>\r\n  </div>\r\n      </div>\r\n    </div>\r\n  </template>\r\n  ",
+      "start": 1745870484368,
+      "end": 1745870485270,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485270,
+      "end": 1745870485270,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485270,
+      "end": 1745870485270,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485270,
+      "end": 1745870485270,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485270,
+      "end": 1745870485270,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870485270,
+      "end": 1745870485271,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870485271,
+      "end": 1745870485271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870485271,
+      "end": 1745870485271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870485271,
+      "end": 1745870485271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870485271,
+      "end": 1745870485271,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_attrs)}><div class=\"px-6 overflow-hidden font-lato lg:pl-8\"><h1 class=\"text-5xl pt-20 md:text-6xl text-center font-rampart lg:pt-8 text-[#ff6246]\"> EventZen2.0 </h1><div class=\"flex flex-col my-12 md:my-12 lg:flex-row\"><div class=\"flex flex-col text-center lg:w-9/12 lg:items-start lg:justify-center\"><img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973513/final_last-min_oqydam.jpg\" class=\"mx-auto lg:mx-0\" data-aos=\"fade-right\"></div><div class=\"my-4 lg:mx-4 lg:my-0 lg:w-1/2\" data-aos=\"fade-left\"><div class=\"flex flex-col items-center justify-start lg:items-start lg:flex-col\"><h1 class=\"px-2 text-2xl font-bold text-primary\">About the event:-</h1><p class=\"mx-2 my-6 text-lg text-justify lg:my-2 lg:text-start\"><span class=\"text-primary\"> Ignite Student Association&#39;s</span> third event, <span class=\"text-primary\">EventZen2.0</span>, was a success with over 200 student registrations. The event offered activities like BGMI gaming, video editing, coding, and Ui/Ux design. The enthusiastic participation and positive response have motivated the organizers to hold more events in the future. All participants will receive certificates, and winners will get goodies and cash prizes. </p><div class=\"w-full p-4 mt-6 bg-event-backdrop\"><div class=\"flex flex-col md:flex-row md:justify-around bg-[#FEE7D8] p-4 rounded-md\"><div class=\"flex items-center my-2\"><div class=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\"></path></svg></div><p class=\"mx-2 text-base font-semibold\"> 08/03/24 To 11/03/24 </p></div><div class=\"flex items-center m-2\"><div class=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\"></path></svg></div><p class=\"mx-2 text-base font-semibold\">Type:- Online</p></div></div></div></div></div></div><div class=\"relative lg:z-20 bg-cover bg-[#FEE7D8] md:bg-transparent md:h-96 md:bg-winner-banner\" data-aos=\"flip-right\"><img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1710523740/eventzen2.0ds_pnqgcz.png\" class=\"absolute right-2 -top-6 lg:right-12 w-[60%] lg:w-[30%] lg:-top-2\"><div class=\"flex flex-col px-6 lg:justify-center lg:px-0 lg:mx-10 lg:my-20\"><div class=\"py-12 md:py-20\"><h1 class=\"py-4 text-3xl font-rampart\">Winners:</h1><div class=\"grid items-start justify-center grid-cols-1 gap-2 py-2 grid-col lg:grid-cols-6 md:grid-cols-3\"><div class=\"flex flex-col items-start text-lg\"><p class=\"font-lato text-primary\">1. Coding Competition</p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Yograj Rana</li><li>Shruti Ingole</li></ol></div><div class=\"flex flex-col items-start text-lg\"><p class=\"font-lato text-primary\">2. Quiz Competition </p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Anish Jewalikar</li><li>Saurav Ambhore</li></ol></div><div class=\"flex flex-col items-start text-lg\"><p class=\"font-lato text-primary\">3. UI/UX Designing</p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Vaibhav Lokhande</li><li>Manali Satpute</li></ol></div><div class=\"flex flex-col items-start text-lg\"><p class=\"font-lato text-primary\">4. Video Editing</p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Vansh Agashe</li><li>Sumit Halge</li></ol></div><div class=\"flex flex-col items-start text-lg\"><p class=\"font-lato text-primary\">5. Prompt Generation </p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Sujal Tonge</li><li>Shruti Rajput</li></ol></div><div class=\"flex flex-col items-start w-full text-lg\"><p class=\"font-lato text-primary\">6. BGMI Gaming </p><ol class=\"px-8 py-2 text-base list-decimal\"><li>Team Mafia</li><li>NWA Gang Gang</li></ol></div></div></div></div></div></div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/events/eventzen2/index.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1745870485271,
+      "end": 1745870485277,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "D:/Ignite-self/frontend/pages/events/eventzen2/index.vue"
+        ],
+        "names": [],
+        "mappings": ";;;EAAA,aAAA,gBAAA",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n      <div class=\"px-6 overflow-hidden font-lato lg:pl-8\">\r\n        <h1\r\n          class=\"text-5xl pt-20 md:text-6xl text-center font-rampart lg:pt-8 text-[#ff6246]\">\r\n          EventZen2.0\r\n        </h1>\r\n        <!-- <h1 class=\"px-2 my-2 text-2xl font-bold text-primary\">About the event:-</h1> -->\r\n        <div class=\"flex flex-col my-12 md:my-12 lg:flex-row\">\r\n          <div class=\"flex flex-col text-center lg:w-9/12 lg:items-start lg:justify-center\">\r\n            <img\r\n              src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728973513/final_last-min_oqydam.jpg\"\r\n              class=\"mx-auto lg:mx-0\" data-aos=\"fade-right\"/>\r\n          </div>\r\n  \r\n          <div class=\"my-4 lg:mx-4 lg:my-0 lg:w-1/2\" data-aos=\"fade-left\">\r\n            <div class=\"flex flex-col items-center justify-start lg:items-start lg:flex-col\">\r\n              <h1 class=\"px-2 text-2xl font-bold text-primary\">About the event:-</h1>\r\n  \r\n              <!-- <img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706961908/avahanLogo_1_fzhrts.png\" class=\" lg:w-[50%]\" /> -->\r\n              <p class=\"mx-2 my-6 text-lg text-justify lg:my-2 lg:text-start\">\r\n                <span class=\"text-primary\">\r\n                  Ignite Student Association's</span> third event, <span class=\"text-primary\">EventZen2.0</span>, was a success with over 200 student registrations. The event offered activities like BGMI gaming, video editing, coding, and Ui/Ux design. The enthusiastic participation and positive response have motivated the organizers to hold more events in the future. All participants will receive certificates, and winners will get goodies and cash prizes.\r\n                \r\n              </p>\r\n              <div class=\"w-full p-4 mt-6 bg-event-backdrop\">\r\n                <div\r\n                  class=\"flex flex-col md:flex-row md:justify-around bg-[#FEE7D8] p-4 rounded-md\">\r\n                  <div class=\"flex items-center my-2\">\r\n                    <div class=\"\">\r\n                      <svg\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                        fill=\"none\"\r\n                        viewBox=\"0 0 24 24\"\r\n                        stroke-width=\"1.5\"\r\n                        stroke=\"currentColor\"\r\n                        class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                        <path\r\n                          stroke-linecap=\"round\"\r\n                          stroke-linejoin=\"round\"\r\n                          d=\"M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" />\r\n                      </svg>\r\n                    </div>\r\n                    <p class=\"mx-2 text-base font-semibold\">\r\n                      08/03/24 To 11/03/24\r\n                    </p>\r\n                  </div>\r\n                  <div class=\"flex items-center m-2\">\r\n                    <div class=\"\">\r\n                      <svg\r\n                        xmlns=\"http://www.w3.org/2000/svg\"\r\n                        fill=\"none\"\r\n                        viewBox=\"0 0 24 24\"\r\n                        stroke-width=\"1.5\"\r\n                        stroke=\"currentColor\"\r\n                        class=\"w-12 h-12 p-2 text-white bg-blue-500 rounded-full\">\r\n                        <path\r\n                          stroke-linecap=\"round\"\r\n                          stroke-linejoin=\"round\"\r\n                          d=\"M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5\" />\r\n                      </svg>\r\n                    </div>\r\n                    <p class=\"mx-2 text-base font-semibold\">Type:- Online</p>\r\n                  </div>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"relative lg:z-20 bg-cover bg-[#FEE7D8] md:bg-transparent md:h-96 md:bg-winner-banner \" data-aos=\"flip-right\">\r\n      <img src=\"https://res.cloudinary.com/dy7zpv1ij/image/upload/v1710523740/eventzen2.0ds_pnqgcz.png\" class=\"absolute right-2 -top-6 lg:right-12 w-[60%] lg:w-[30%] lg:-top-2\" />\r\n<div class=\"flex flex-col px-6 lg:justify-center lg:px-0 lg:mx-10 lg:my-20\">\r\n  <div class=\"py-12 md:py-20\">\r\n\r\n  \r\n        <h1 class=\"py-4 text-3xl font-rampart\">Winners:</h1>\r\n        <div\r\n          class=\"grid items-start justify-center grid-cols-1 gap-2 py-2 grid-col lg:grid-cols-6 md:grid-cols-3\">\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">1. Coding Competition</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Yograj Rana</li>\r\n              <li>Shruti Ingole</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">2. Quiz Competition </p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Anish Jewalikar</li>\r\n              <li>Saurav Ambhore</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">3. UI/UX Designing</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Vaibhav Lokhande</li>\r\n              <li>Manali Satpute</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n            <p class=\"font-lato text-primary\">4. Video Editing</p>\r\n            <ol class=\"px-8 py-2 text-base list-decimal\">\r\n              <li>Vansh Agashe</li>\r\n              <li>Sumit Halge</li>\r\n            </ol>\r\n          </div>\r\n          <div class=\"flex flex-col items-start text-lg\">\r\n                  <p class=\"font-lato text-primary\">5. Prompt Generation </p>\r\n                  <ol class=\"px-8 py-2 text-base list-decimal\">\r\n                      <li>Sujal Tonge</li>\r\n                      <li>Shruti Rajput</li>\r\n                  </ol>\r\n              </div>\r\n          <div class=\"flex flex-col items-start w-full text-lg\">\r\n                  <p class=\"font-lato text-primary\">6. BGMI Gaming </p>\r\n                  <ol class=\"px-8 py-2 text-base list-decimal\">\r\n                      <li>Team Mafia</li>\r\n                      <li>NWA Gang Gang</li>\r\n                  </ol>\r\n              </div>\r\n        </div>\r\n      </div>\r\n      </div>\r\n  </img>\r\n  </div>\r\n      </div>\r\n    </div>\r\n  </template>\r\n  "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485277,
+      "end": 1745870485277,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870485277,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485280,
+      "end": 1745870485280,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485280,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485280,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870485281,
+      "end": 1745870485281,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870485281,
+      "end": 1745870485282,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870485282,
+      "end": 1745870485282,
+      "order": "normal"
+    }
+  ]
+}

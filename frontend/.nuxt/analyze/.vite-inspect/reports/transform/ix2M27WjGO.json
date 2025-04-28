@@ -1,0 +1,214 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/components/memberCard.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "  \r\n  <script setup>\r\n  \r\n  defineProps({\r\n    member: Object\r\n  });\r\n  </script>\r\n<template>\r\n    <div class=\"\">\r\n\r\n      <div class=\"\">\r\n        <div class=\"flex w-[264px] justify-center items-center flex-col\">\r\n          <div class=\"overflow-hidden w-[264px] rounded-lg\">\r\n            <img\r\n              :src=\"member.image\"\r\n              class=\"w-[264px] rounded-xl duration-500 hover:scale-110\" />\r\n          </div>\r\n          <p class=\"text-[24px] pt-4 text-[#585858] font-bold\">{{ member.name }}</p>\r\n          <p class=\"text-[#CA8D66]\">{{ member.position }}</p>\r\n      \r\n          \r\n          <div class=\"flex justify-center\">\r\n                      <div\r\n                        v-for=\"(social, index) in member.socialMedia\"\r\n                        :key=\"index\"\r\n                        class=\"flex justify-center\"\r\n                      >\r\n                        <div class=\"flex justify-center\">\r\n                          <a target=\"_blank\" :href=\"social.website\"\r\n                            ><img :src=\"social.websiteicon\" class=\"mt-[2px]\"\r\n                          /></a>\r\n                          <a target=\"_blank\" :href=\"social.linkedIn\"\r\n                            ><img :src=\"social.linkedInicon\" class=\"mx-[2px]\"\r\n                          /></a>\r\n                          <a target=\"_blank\" :href=\"social.twitter\"\r\n                            ><img :src=\"social.twittericon\" class=\"\"\r\n                          /></a>\r\n                          <a target=\"_blank\" :href=\"social.instagram\"\r\n                            ><img :src=\"social.instagramicon\" class=\"\"\r\n                          /></a>\r\n                        </div>\r\n                      </div>\r\n                    </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </template>\r\n",
+      "start": 1745870470933,
+      "end": 1745870471455,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870471455,
+      "end": 1745870471455,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nconst _hoisted_1 = { class: \"\" }\nconst _hoisted_2 = { class: \"\" }\nconst _hoisted_3 = { class: \"flex w-[264px] justify-center items-center flex-col\" }\nconst _hoisted_4 = { class: \"overflow-hidden w-[264px] rounded-lg\" }\nconst _hoisted_5 = [\"src\"]\nconst _hoisted_6 = { class: \"text-[24px] pt-4 text-[#585858] font-bold\" }\nconst _hoisted_7 = { class: \"text-[#CA8D66]\" }\nconst _hoisted_8 = { class: \"flex justify-center\" }\nconst _hoisted_9 = { class: \"flex justify-center\" }\nconst _hoisted_10 = [\"href\"]\nconst _hoisted_11 = [\"src\"]\nconst _hoisted_12 = [\"href\"]\nconst _hoisted_13 = [\"src\"]\nconst _hoisted_14 = [\"href\"]\nconst _hoisted_15 = [\"src\"]\nconst _hoisted_16 = [\"href\"]\nconst _hoisted_17 = [\"src\"]\n\n\nconst _sfc_main = {\n  __name: 'memberCard',\n  props: {\r\n    member: Object\r\n  },\n  setup(__props) {\n\r\n  \r\n  \r\n  \nreturn (_ctx, _cache) => {\n  return (_openBlock(), _createElementBlock(\"div\", _hoisted_1, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _createElementVNode(\"div\", _hoisted_3, [\n        _createElementVNode(\"div\", _hoisted_4, [\n          _createElementVNode(\"img\", {\n            src: __props.member.image,\n            class: \"w-[264px] rounded-xl duration-500 hover:scale-110\"\n          }, null, 8, _hoisted_5)\n        ]),\n        _createElementVNode(\"p\", _hoisted_6, _toDisplayString(__props.member.name), 1),\n        _createElementVNode(\"p\", _hoisted_7, _toDisplayString(__props.member.position), 1),\n        _createElementVNode(\"div\", _hoisted_8, [\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList(__props.member.socialMedia, (social, index) => {\n            return (_openBlock(), _createElementBlock(\"div\", {\n              key: index,\n              class: \"flex justify-center\"\n            }, [\n              _createElementVNode(\"div\", _hoisted_9, [\n                _createElementVNode(\"a\", {\n                  target: \"_blank\",\n                  href: social.website\n                }, [\n                  _createElementVNode(\"img\", {\n                    src: social.websiteicon,\n                    class: \"mt-[2px]\"\n                  }, null, 8, _hoisted_11)\n                ], 8, _hoisted_10),\n                _createElementVNode(\"a\", {\n                  target: \"_blank\",\n                  href: social.linkedIn\n                }, [\n                  _createElementVNode(\"img\", {\n                    src: social.linkedInicon,\n                    class: \"mx-[2px]\"\n                  }, null, 8, _hoisted_13)\n                ], 8, _hoisted_12),\n                _createElementVNode(\"a\", {\n                  target: \"_blank\",\n                  href: social.twitter\n                }, [\n                  _createElementVNode(\"img\", {\n                    src: social.twittericon,\n                    class: \"\"\n                  }, null, 8, _hoisted_15)\n                ], 8, _hoisted_14),\n                _createElementVNode(\"a\", {\n                  target: \"_blank\",\n                  href: social.instagram\n                }, [\n                  _createElementVNode(\"img\", {\n                    src: social.instagramicon,\n                    class: \"\"\n                  }, null, 8, _hoisted_17)\n                ], 8, _hoisted_16)\n              ])\n            ]))\n          }), 128))\n        ])\n      ])\n    ])\n  ]))\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1745870471455,
+      "end": 1745870471459,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870471459,
+      "end": 1745870471459,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870471459,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870471461,
+      "end": 1745870471461,
+      "order": "normal"
+    }
+  ]
+}

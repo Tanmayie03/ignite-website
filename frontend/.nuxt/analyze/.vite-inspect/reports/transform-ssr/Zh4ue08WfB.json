@@ -1,0 +1,258 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/components/chatbot.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n  <div\r\n    class=\"fixed z-50 transition ease-in-out delay-300 border border-gray-300 rounded-lg shadow-xl duration-800 no-scrollbar bg-background h-96 bottom-20 right-5 w-80\">\r\n    <div class=\"p-2 text-lg font-bold text-white bg-primary\">Ignito</div>\r\n    <div\r\n      class=\"h-[300px] relative py-4 bg-center bg-no-repeat bg-contain\"\r\n      style=\"\r\n        background-image: linear-gradient(\r\n            rgba(255, 244, 240, 0.6),\r\n            rgba(255, 244, 240, 0.6)\r\n          ),\r\n          url('https://res.cloudinary.com/dy7zpv1ij/image/upload/v1730971280/chat-bot_1_e8oxrk.png');\r\n      \">\r\n      <div\r\n        class=\"pb-12 space-y-2 overflow-y-scroll rounded-t-lg no-scrollbar h-72\"\r\n        ref=\"messagesContainer\">\r\n        <div\r\n          v-for=\"(message, index) in messages\"\r\n          :key=\"index\"\r\n          :class=\"message.from === 'user' ? 'text-right' : 'text-left'\">\r\n          <div\r\n            :class=\"\r\n              message.from === 'user'\r\n                ? ' max-w-[70%] w-fit ml-auto'\r\n                : ' max-w-[70%] w-fit mr-auto'\r\n            \">\r\n            <div class=\"flex flex-col rounded-md\">\r\n              <p class=\"px-2 font-semibold text-black\">\r\n                {{ message.from === \"user\" ? \"You \" : \"Bot \" }}\r\n              </p>\r\n              <p\r\n                :class=\"\r\n                  message.from === 'user'\r\n                    ? 'bg-primary p-2 mx-2 rounded-l text-white '\r\n                    : 'bg-white p-2 mx-2 rounded-r text-black '\r\n                \">\r\n                {{ message.text }}\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"\">\r\n        <input\r\n          v-model=\"userMessage\"\r\n          type=\"text\"\r\n          class=\"w-full p-2 border rounded outline-none\"\r\n          placeholder=\"Type your message...\"\r\n          @keydown.enter=\"sendMessage\" />\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, nextTick } from \"vue\";\r\n\r\nconst userMessage = ref(\"\");\r\nconst messages = ref([]);\r\nconst messagesContainer = ref(null);\r\n\r\nconst sendMessage = async () => {\r\n  if (userMessage.value.trim() === \"\") return;\r\n\r\n  const message = { text: userMessage.value, from: \"user\" };\r\n  messages.value.push(message);\r\n  userMessage.value = \"\";\r\n\r\n  await nextTick();\r\n  scrollToBottom();\r\n\r\n  try {\r\n    const response = await fetch(\"http://192.168.38.158:5000/chatbot/\", {\r\n      method: \"POST\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n      },\r\n      body: JSON.stringify({ message: message.text }),\r\n    });\r\n\r\n    const data = await response.json();\r\n\r\n    messages.value.push({ text: data.reply, from: \"chatbot\" });\r\n\r\n    await nextTick();\r\n    scrollToBottom();\r\n  } catch (error) {\r\n    console.error(\"Error sending message to chatbot:\", error);\r\n  }\r\n};\r\n\r\nconst scrollToBottom = () => {\r\n  if (messagesContainer.value) {\r\n    messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight;\r\n  }\r\n};\r\n</script>\r\n",
+      "start": 1745870485581,
+      "end": 1745870485804,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870485804,
+      "end": 1745870485804,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderClass as _ssrRenderClass, ssrRenderAttr as _ssrRenderAttr, ssrRenderStyle as _ssrRenderStyle, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nimport { ref, nextTick } from \"vue\";\r\n\r\n\nconst _sfc_main = {\n  __name: 'chatbot',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\nconst userMessage = ref(\"\");\r\nconst messages = ref([]);\r\nconst messagesContainer = ref(null);\r\n\r\nconst sendMessage = async () => {\r\n  if (userMessage.value.trim() === \"\") return;\r\n\r\n  const message = { text: userMessage.value, from: \"user\" };\r\n  messages.value.push(message);\r\n  userMessage.value = \"\";\r\n\r\n  await nextTick();\r\n  scrollToBottom();\r\n\r\n  try {\r\n    const response = await fetch(\"http://192.168.38.158:5000/chatbot/\", {\r\n      method: \"POST\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n      },\r\n      body: JSON.stringify({ message: message.text }),\r\n    });\r\n\r\n    const data = await response.json();\r\n\r\n    messages.value.push({ text: data.reply, from: \"chatbot\" });\r\n\r\n    await nextTick();\r\n    scrollToBottom();\r\n  } catch (error) {\r\n    console.error(\"Error sending message to chatbot:\", error);\r\n  }\r\n};\r\n\r\nconst scrollToBottom = () => {\r\n  if (messagesContainer.value) {\r\n    messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight;\r\n  }\r\n};\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"fixed z-50 transition ease-in-out delay-300 border border-gray-300 rounded-lg shadow-xl duration-800 no-scrollbar bg-background h-96 bottom-20 right-5 w-80\" }, _attrs))\n  }><div class=\"p-2 text-lg font-bold text-white bg-primary\">Ignito</div><div class=\"h-[300px] relative py-4 bg-center bg-no-repeat bg-contain\" style=\"${\n    _ssrRenderStyle({\"background-image\":\"linear-gradient(\\r\\n            rgba(255, 244, 240, 0.6),\\r\\n            rgba(255, 244, 240, 0.6)\\r\\n          ),\\r\\n          url('https://res.cloudinary.com/dy7zpv1ij/image/upload/v1730971280/chat-bot_1_e8oxrk.png')\"})\n  }\"><div class=\"pb-12 space-y-2 overflow-y-scroll rounded-t-lg no-scrollbar h-72\"><!--[-->`)\n  _ssrRenderList(messages.value, (message, index) => {\n    _push(`<div class=\"${\n      _ssrRenderClass(message.from === 'user' ? 'text-right' : 'text-left')\n    }\"><div class=\"${\n      _ssrRenderClass(\r\n              message.from === 'user'\r\n                ? ' max-w-[70%] w-fit ml-auto'\r\n                : ' max-w-[70%] w-fit mr-auto'\r\n            )\n    }\"><div class=\"flex flex-col rounded-md\"><p class=\"px-2 font-semibold text-black\">${\n      _ssrInterpolate(message.from === \"user\" ? \"You \" : \"Bot \")\n    }</p><p class=\"${\n      _ssrRenderClass(\r\n                  message.from === 'user'\r\n                    ? 'bg-primary p-2 mx-2 rounded-l text-white '\r\n                    : 'bg-white p-2 mx-2 rounded-r text-black '\r\n                )\n    }\">${\n      _ssrInterpolate(message.text)\n    }</p></div></div></div>`)\n  })\n  _push(`<!--]--></div><div class=\"\"><input${_ssrRenderAttr(\"value\", userMessage.value)} type=\"text\" class=\"w-full p-2 border rounded outline-none\" placeholder=\"Type your message...\"></div></div></div>`)\n}\n}\n\n}\n\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/chatbot.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nexport default _sfc_main",
+      "start": 1745870485804,
+      "end": 1745870485812,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "D:/Ignite-self/frontend/components/chatbot.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n  <div\r\n    class=\"fixed z-50 transition ease-in-out delay-300 border border-gray-300 rounded-lg shadow-xl duration-800 no-scrollbar bg-background h-96 bottom-20 right-5 w-80\">\r\n    <div class=\"p-2 text-lg font-bold text-white bg-primary\">Ignito</div>\r\n    <div\r\n      class=\"h-[300px] relative py-4 bg-center bg-no-repeat bg-contain\"\r\n      style=\"\r\n        background-image: linear-gradient(\r\n            rgba(255, 244, 240, 0.6),\r\n            rgba(255, 244, 240, 0.6)\r\n          ),\r\n          url('https://res.cloudinary.com/dy7zpv1ij/image/upload/v1730971280/chat-bot_1_e8oxrk.png');\r\n      \">\r\n      <div\r\n        class=\"pb-12 space-y-2 overflow-y-scroll rounded-t-lg no-scrollbar h-72\"\r\n        ref=\"messagesContainer\">\r\n        <div\r\n          v-for=\"(message, index) in messages\"\r\n          :key=\"index\"\r\n          :class=\"message.from === 'user' ? 'text-right' : 'text-left'\">\r\n          <div\r\n            :class=\"\r\n              message.from === 'user'\r\n                ? ' max-w-[70%] w-fit ml-auto'\r\n                : ' max-w-[70%] w-fit mr-auto'\r\n            \">\r\n            <div class=\"flex flex-col rounded-md\">\r\n              <p class=\"px-2 font-semibold text-black\">\r\n                {{ message.from === \"user\" ? \"You \" : \"Bot \" }}\r\n              </p>\r\n              <p\r\n                :class=\"\r\n                  message.from === 'user'\r\n                    ? 'bg-primary p-2 mx-2 rounded-l text-white '\r\n                    : 'bg-white p-2 mx-2 rounded-r text-black '\r\n                \">\r\n                {{ message.text }}\r\n              </p>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n\r\n      <div class=\"\">\r\n        <input\r\n          v-model=\"userMessage\"\r\n          type=\"text\"\r\n          class=\"w-full p-2 border rounded outline-none\"\r\n          placeholder=\"Type your message...\"\r\n          @keydown.enter=\"sendMessage\" />\r\n      </div>\r\n    </div>\r\n  </div>\r\n</template>\r\n\r\n<script setup>\r\nimport { ref, nextTick } from \"vue\";\r\n\r\nconst userMessage = ref(\"\");\r\nconst messages = ref([]);\r\nconst messagesContainer = ref(null);\r\n\r\nconst sendMessage = async () => {\r\n  if (userMessage.value.trim() === \"\") return;\r\n\r\n  const message = { text: userMessage.value, from: \"user\" };\r\n  messages.value.push(message);\r\n  userMessage.value = \"\";\r\n\r\n  await nextTick();\r\n  scrollToBottom();\r\n\r\n  try {\r\n    const response = await fetch(\"http://192.168.38.158:5000/chatbot/\", {\r\n      method: \"POST\",\r\n      headers: {\r\n        \"Content-Type\": \"application/json\",\r\n      },\r\n      body: JSON.stringify({ message: message.text }),\r\n    });\r\n\r\n    const data = await response.json();\r\n\r\n    messages.value.push({ text: data.reply, from: \"chatbot\" });\r\n\r\n    await nextTick();\r\n    scrollToBottom();\r\n  } catch (error) {\r\n    console.error(\"Error sending message to chatbot:\", error);\r\n  }\r\n};\r\n\r\nconst scrollToBottom = () => {\r\n  if (messagesContainer.value) {\r\n    messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight;\r\n  }\r\n};\r\n</script>\r\n"
+        ],
+        "names": [],
+        "mappings": ";;;AAwDA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrC,CAAC;;;;;;AAFa,CAAC;AAGf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACrC,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAClC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/C,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC1B,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpB,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;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"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870485812,
+      "end": 1745870485812,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485812,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485812,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485813,
+      "end": 1745870485813,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485813,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485813,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870485814,
+      "end": 1745870485814,
+      "order": "normal"
+    }
+  ]
+}

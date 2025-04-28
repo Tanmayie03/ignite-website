@@ -1,0 +1,45 @@
+const event = [
+  {
+    id: 0,
+    name: "Zen2(Ongoing)",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf",
+    text: "EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!",
+    date: "10 May 2025 - 12 May 2025",
+    page_id: "zen2"
+  },
+  {
+    id: 1,
+    name: "EventZen",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/hssite95pu6q67mzo8wf",
+    text: "EventZen, our inaugural endeavor at Ignite Student Association, celebrated triumph with 450+ participants and over 1000 registrations across diverse curricular and extra-curricular competitions. A resounding success!",
+    date: "12 Jan 2023 - 15 Jan 2023",
+    page_id: "zen"
+  },
+  {
+    id: 2,
+    name: "Aavhan",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705476165/ignite-assets/timhdiabumhtg9uudusb.png",
+    text: "Aavhan, our triumphant second iteration at Ignite Student Association, showcased a spectrum of competitions, blending curricular and extra-curricular excellence. A glimpse into our vibrant celebration of talent and success!",
+    date: "24 April 2023 - 26 April 2023",
+    page_id: "aavhan"
+  },
+  {
+    id: 3,
+    name: "EventZen2.0",
+    image: "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1706989587/eventzen2.0_d8qamz.png",
+    text: "Level Up! Eventzen 2.0, our second iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!",
+    date: "08 March 2024 - 11 March 2024",
+    page_id: "eventzen2"
+  },
+  {
+    id: 4,
+    name: "EventZen 3.0",
+    image: "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1729439271/Group_3317_albdx9.png",
+    text: "EventZen 3.0, our third iteration, ignites creativity and gaming process. Code, quiz, film, design with AI, and battle in BGMI squads! Learn, connect, win. Unleash your potential. Join the community!",
+    date: "26 Oct 2024 - 27 Oct 2024",
+    page_id: "eventzen3"
+  }
+];
+
+export { event as e };
+//# sourceMappingURL=events-83UHZAiH.mjs.map

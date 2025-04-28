@@ -1,0 +1,258 @@
+{
+  "resolvedId": "D:/Ignite-self/frontend/pages/terms.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n      <div class=\"px-6 pt-20 md:px-12 md:pt-8 md:mt-0 font-lato\">\r\n        <h1 class=\"py-4 text-4xl font-bold text-primary\">\r\n          Ignite Student Association Terms & Conditions\r\n        </h1>\r\n        <div class=\"w-full h-[2px] my-2 bg-slate-500\"></div>\r\n\r\n        <h1 class=\"\"></h1>\r\n          <p class=\"py-2 text-xl font-bold text-primary\">\r\n  General Terms and Conditions for Ignite Student Association Events</p>\r\n  <h1 class=\"py-2 text-lg font-semibold\">1. Registration and Payment:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n      <li class=\"py-1\">By registering for an Ignite Student Association event, you agree to these terms and conditions.</li>\r\n      <li class=\"py-1\">Registration fees are non-refundable unless stated otherwise in the specific event details or covered by the cancellation policy.</li>\r\n      <li class=\"py-1\">You are responsible for ensuring the accuracy of your registration information.</li>\r\n      <li class=\"py-1\">Payment must be made in full at the time of registration.</li>\r\n  \r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">2. Event Participation:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n  <li class=\"py-1\">All participants must abide by the rules and regulations set forth by Ignite Student Association for each event.</li>\r\n       <li class=\"py-1\">Ignite Student Association reserves the right to refuse entry or remove any participant who violates these rules or exhibits disruptive behavior.</li>\r\n  <li class=\"py-1\">You are responsible for your own safety and well-being during the event.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">3. Content and Intellectual Property:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Any materials provided at the event, including presentations, handouts, and recordings, are the intellectual property of Ignite Student Association or its presenters.</li>\r\n      <li class=\"py-1\">You may not distribute or copy these materials without written permission.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">4. Liability:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association is not liable for any personal injury, loss, or damage incurred during an event.</li>\r\n      <li class=\"py-1\">You participate at your own risk.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">5. Changes and Cancellations:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association reserves the right to change or cancel an event at any time due to unforeseen circumstances or insufficient registration.</li>\r\n      <li class=\"py-1\">In case of cancellation, a full refund will be issued to registered participants.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">6. Privacy:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association collects personal information during registration for event management purposes.</li>\r\n      <li class=\"py-1\">Your information will be kept confidential and will not be shared with third parties without your consent.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">7. Contact:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">For any questions or concerns, please contact Ignite Student Association at <span class=\"underline\">ignitestudentassociation@gmail.com</span></li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">8. Disclaimer:</h1>\r\n  <li class=\"py-1 pl-8\">These terms and conditions are subject to change without notice.</li>\r\n  Note: This is a general template, and you may need to adapt it to your specific needs and the types of events you organize. It is advisable to consult with a legal professional to ensure your terms and conditions are legally sound.\r\n  </div>\r\n      </div>\r\n    \r\n    \r\n  </template>\r\n  ",
+      "start": 1745870485150,
+      "end": 1745870485552,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1745870485552,
+      "end": 1745870485552,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_attrs)}><div class=\"px-6 pt-20 md:px-12 md:pt-8 md:mt-0 font-lato\"><h1 class=\"py-4 text-4xl font-bold text-primary\"> Ignite Student Association Terms &amp; Conditions </h1><div class=\"w-full h-[2px] my-2 bg-slate-500\"></div><h1 class=\"\"></h1><p class=\"py-2 text-xl font-bold text-primary\"> General Terms and Conditions for Ignite Student Association Events</p><h1 class=\"py-2 text-lg font-semibold\">1. Registration and Payment:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">By registering for an Ignite Student Association event, you agree to these terms and conditions.</li><li class=\"py-1\">Registration fees are non-refundable unless stated otherwise in the specific event details or covered by the cancellation policy.</li><li class=\"py-1\">You are responsible for ensuring the accuracy of your registration information.</li><li class=\"py-1\">Payment must be made in full at the time of registration.</li></ul><h1 class=\"py-2 text-lg font-semibold\">2. Event Participation:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">All participants must abide by the rules and regulations set forth by Ignite Student Association for each event.</li><li class=\"py-1\">Ignite Student Association reserves the right to refuse entry or remove any participant who violates these rules or exhibits disruptive behavior.</li><li class=\"py-1\">You are responsible for your own safety and well-being during the event.</li></ul><h1 class=\"py-2 text-lg font-semibold\">3. Content and Intellectual Property:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">Any materials provided at the event, including presentations, handouts, and recordings, are the intellectual property of Ignite Student Association or its presenters.</li><li class=\"py-1\">You may not distribute or copy these materials without written permission.</li></ul><h1 class=\"py-2 text-lg font-semibold\">4. Liability:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">Ignite Student Association is not liable for any personal injury, loss, or damage incurred during an event.</li><li class=\"py-1\">You participate at your own risk.</li></ul><h1 class=\"py-2 text-lg font-semibold\">5. Changes and Cancellations:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">Ignite Student Association reserves the right to change or cancel an event at any time due to unforeseen circumstances or insufficient registration.</li><li class=\"py-1\">In case of cancellation, a full refund will be issued to registered participants.</li></ul><h1 class=\"py-2 text-lg font-semibold\">6. Privacy:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">Ignite Student Association collects personal information during registration for event management purposes.</li><li class=\"py-1\">Your information will be kept confidential and will not be shared with third parties without your consent.</li></ul><h1 class=\"py-2 text-lg font-semibold\">7. Contact:</h1><ul class=\"pl-12 list-disc\"><li class=\"py-1\">For any questions or concerns, please contact Ignite Student Association at <span class=\"underline\">ignitestudentassociation@gmail.com</span></li></ul><h1 class=\"py-2 text-lg font-semibold\">8. Disclaimer:</h1><li class=\"py-1 pl-8\">These terms and conditions are subject to change without notice.</li> Note: This is a general template, and you may need to adapt it to your specific needs and the types of events you organize. It is advisable to consult with a legal professional to ensure your terms and conditions are legally sound. </div></div>`)\n}\n\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/terms.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender]])",
+      "start": 1745870485552,
+      "end": 1745870485553,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "D:/Ignite-self/frontend/pages/terms.vue"
+        ],
+        "names": [],
+        "mappings": ";;;EAAA,aAAA,gBAAA",
+        "sourcesContent": [
+          "<template>\r\n    <div>\r\n      <div class=\"px-6 pt-20 md:px-12 md:pt-8 md:mt-0 font-lato\">\r\n        <h1 class=\"py-4 text-4xl font-bold text-primary\">\r\n          Ignite Student Association Terms & Conditions\r\n        </h1>\r\n        <div class=\"w-full h-[2px] my-2 bg-slate-500\"></div>\r\n\r\n        <h1 class=\"\"></h1>\r\n          <p class=\"py-2 text-xl font-bold text-primary\">\r\n  General Terms and Conditions for Ignite Student Association Events</p>\r\n  <h1 class=\"py-2 text-lg font-semibold\">1. Registration and Payment:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n      <li class=\"py-1\">By registering for an Ignite Student Association event, you agree to these terms and conditions.</li>\r\n      <li class=\"py-1\">Registration fees are non-refundable unless stated otherwise in the specific event details or covered by the cancellation policy.</li>\r\n      <li class=\"py-1\">You are responsible for ensuring the accuracy of your registration information.</li>\r\n      <li class=\"py-1\">Payment must be made in full at the time of registration.</li>\r\n  \r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">2. Event Participation:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n  <li class=\"py-1\">All participants must abide by the rules and regulations set forth by Ignite Student Association for each event.</li>\r\n       <li class=\"py-1\">Ignite Student Association reserves the right to refuse entry or remove any participant who violates these rules or exhibits disruptive behavior.</li>\r\n  <li class=\"py-1\">You are responsible for your own safety and well-being during the event.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">3. Content and Intellectual Property:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Any materials provided at the event, including presentations, handouts, and recordings, are the intellectual property of Ignite Student Association or its presenters.</li>\r\n      <li class=\"py-1\">You may not distribute or copy these materials without written permission.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">4. Liability:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association is not liable for any personal injury, loss, or damage incurred during an event.</li>\r\n      <li class=\"py-1\">You participate at your own risk.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">5. Changes and Cancellations:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association reserves the right to change or cancel an event at any time due to unforeseen circumstances or insufficient registration.</li>\r\n      <li class=\"py-1\">In case of cancellation, a full refund will be issued to registered participants.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">6. Privacy:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">Ignite Student Association collects personal information during registration for event management purposes.</li>\r\n      <li class=\"py-1\">Your information will be kept confidential and will not be shared with third parties without your consent.</li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">7. Contact:</h1>\r\n  <ul class=\"pl-12 list-disc\">\r\n  \r\n      <li class=\"py-1\">For any questions or concerns, please contact Ignite Student Association at <span class=\"underline\">ignitestudentassociation@gmail.com</span></li>\r\n  </ul>\r\n  <h1 class=\"py-2 text-lg font-semibold\">8. Disclaimer:</h1>\r\n  <li class=\"py-1 pl-8\">These terms and conditions are subject to change without notice.</li>\r\n  Note: This is a general template, and you may need to adapt it to your specific needs and the types of events you organize. It is advisable to consult with a legal professional to ensure your terms and conditions are legally sound.\r\n  </div>\r\n      </div>\r\n    \r\n    \r\n  </template>\r\n  "
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1745870485553,
+      "end": 1745870485553,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1745870485553,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1745870485554,
+      "end": 1745870485554,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1745870485554,
+      "end": 1745870485555,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1745870485555,
+      "end": 1745870485555,
+      "order": "normal"
+    }
+  ]
+}

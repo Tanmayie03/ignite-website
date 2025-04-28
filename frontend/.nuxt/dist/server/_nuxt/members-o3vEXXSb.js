@@ -1,0 +1,363 @@
+const members = [
+  {
+    id: 1,
+    name: "Tanmayie Patil",
+    position: "President",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/dila94wql7ah3ktehmm8",
+    socialMedia: [
+      {
+        website: "https://tanmayiepatil.netlify.app",
+        websiteicon: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd"
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/tanmayie-patil-6543a7258/",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://x.com/tanmayie87?t=qKgB1-mmdO93gHROWiYSTw&s=09",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/descry_art_",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 2,
+    name: "Aryan Bramhane",
+    position: "Techincal Lead",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pegbdwn5i7kuhmrdssvc",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/aryan-bramhane-9b93031b3/",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://twitter.com/neutr0n420",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/aryanbramhane_/",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: "Ganesh Kharde",
+    position: "Event Lead",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wyqdxusm6gdqa0zpzscj",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://linkedin.com/in/ganesh-kharde",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://twitter.com/ganeshkharde80",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/ganesh_kharde_official/",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 4,
+    name: "Abhishek Paralikar",
+    position: "Gaming Lead",
+    image: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/tfilfko4dqnbeieikxba",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/abhishek-paralikar-212320229/",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://x.com/AbhishekPa5231?t=lvgQ98bS5V_iZLH3h1SUqw&s=09",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/its_abhiii_20_?igsh=MXM4eHd0cmw2OGlwOQ%3D%3D",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 5,
+    name: "Anjali Kulkarni",
+    position: "Operation Lead",
+    image: "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1728974260/anjali_newwebsitecompress_nfefc8.png",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/anjali-kulkarni-a58a20230",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://x.com/Anjalik_11?t=wXa0ZrfcTLybstEI3gjFxA&s=09",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: ""
+      }
+    ]
+  },
+  {
+    id: 5,
+    name: "Abhay Nandnaware",
+    position: "Finance Head",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/wj1xl98tkeqlpuelg0mm",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/abhay-nandnaware-bb5715266",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: "https://x.com/AbhayNandn11050?t=rCRLxFy_s2IECJ2LcW5q1A&s=09",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/im_abhay_31?igsh=MzNlNGNkZWQ4Mg==",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 6,
+    name: "Swati Pandey",
+    position: "Content Lead",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/rxbutrg1xxewrvadg9bo",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: ""
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/aint_swati?igsh=aWE3aWhzdzJ0eHow",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 7,
+    name: "Yashwant Bhosale",
+    position: "Media Lead",
+    image: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/pimo0uszw3lcibxgtcp6",
+    socialMedia: [
+      {
+        website: "https://www.youtube.com/@yashwant_373",
+        websiteicon: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd"
+      },
+      {
+        linkedIn: "LinkedIn - https://www.linkedin.com/in/yashwant373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/yashwant_373",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 8,
+    name: "Harshwardan Khanse",
+    position: "Graphic-Design Lead",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/mmyciv5ifoiawvjtju4f",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/harshwardhan-khanse-2530b1225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: " https://www.instagram.com/harshk.x?igsh=NTRxeHo4YWZ1dnZt",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 9,
+    name: "Sahil Gange",
+    position: "Support Lead",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/zackq3mit1jhhvo6losw",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: ""
+      },
+      {
+        twitter: "https://twitter.com/the_sahilgange",
+        twittericon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/de4nlta2bqgvbeuggtia"
+      },
+      {
+        instagram: "https://www.instagram.com/invites/contact/?i=2ivu7kfhhrhe&utm_content=4rz5hwp",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 10,
+    name: "Siddhi Sethi",
+    position: "Marketing Team",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsntvzjo5cpv3r3mfmwx.png",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "Linkedin:https://www.linkedin.com/in/siddhi-sethi-a6a0aa23a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: ""
+      }
+    ]
+  },
+  {
+    id: 11,
+    name: "Ajinkya Takalkar",
+    position: "Photography Team",
+    image: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/nunrbao9mrrsrqj64smc",
+    socialMedia: [
+      {
+        website: "https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx",
+        websiteicon: " https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/kl5vjpop5gntfmp3hejd"
+      },
+      {
+        linkedIn: ""
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/tacklekar?igsh=emQweXQ1Z3VsdXIx",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 12,
+    name: "Kartik Hajbe",
+    position: "Media Team",
+    image: "https://res.cloudinary.com/dy7zpv1ij/image/upload/v1708691853/DSC_0300_2_l6t4xk.png",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://in.linkedin.com/in/kartik-hajbe-538a99244",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/kartikhajbe",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 13,
+    name: "Sachi Ernale",
+    position: "Finance Team",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/st3fhpxjaybneh3xm46k",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/sachi-ernale-2a0b32229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/sachi.ernale?igsh=Z2E4MmVnN2I3cjhq",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 14,
+    name: "Aniket Andhale",
+    position: "Support Team",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/ayrux5e3fki1t6epipcv",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/aniketandhale08",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/andy_08_01?igsh=MThmZDVqcDVibG81NA==",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  },
+  {
+    id: 15,
+    name: "Hemant Saundalkar",
+    position: "Photography Team",
+    image: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/achfeqwwkayb2wxxqjgt",
+    socialMedia: [
+      {
+        website: ""
+      },
+      {
+        linkedIn: "https://www.linkedin.com/in/hemant-saundalkar-31526a245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        linkedInicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/uactf69sq81mgdayn6lp"
+      },
+      {
+        twitter: ""
+      },
+      {
+        instagram: "https://www.instagram.com/hemant_0308?igsh=bTBhZndlYWk0NDM4",
+        instagramicon: "https://res.cloudinary.com/dthrgos9e/image/upload/v1705138771/ignite-assets/qsuqtorsz8nfxp1uqliq"
+      }
+    ]
+  }
+];
+export {
+  members as m
+};
+//# sourceMappingURL=members-o3vEXXSb.js.map
